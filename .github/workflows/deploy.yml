@@ -21,6 +21,12 @@ jobs:
 
     - name: Build
       run: npm run build
+      
+    - name: Upload static files as artifact
+      id: deployment
+      uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+      with:
+        path: static/
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
