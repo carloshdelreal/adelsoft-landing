@@ -73,7 +73,7 @@
       "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
     },
     {
-      "icon": "fa fa-laptop-code",
+      "icon": "fa fa-terminal",
       "name": "Development",
       "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
     },
@@ -93,7 +93,7 @@
       "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
     },
     {
-      "icon": "fa fa-mobile-alt",
+      "icon": "fa fa-desktop",
       "name": "Frontend Development",
       "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
     }
