@@ -1,184 +1,186 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Adelsoft Web Development",
+    "paragraph": "Agency-level web development services at freelance rates. I will develop the app that your customers will love and your competition will hate."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "With over 6 years of experience in web development, I specialize in creating high-performance web applications using modern technologies. My expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. I have extensive experience working with real, live web applications across the entire stack and am passionate about building innovative solutions.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Fullstack Development",
+      "Cloud Architecture",
+      "Microservices",
+      "Performance Optimization"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Modern Tech Stack",
+      "Scalable Solutions",
+      "Security First",
+      "Continuous Support"
     ]
   },
+  "GaleryDescription": "Here are some of the projects I've worked on. I've been a fullstack developer for over 6 years, and I've worked on a variety of projects. I've also been a cloud architect and a backend engineer. I've also worked on frontend development and multiple programming languages.",
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Landmark Map",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Water Peace and Security",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Aqueduct Files",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Souperbowl of Caring",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Seller Insight",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Newsela Classroom",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Five to Nine",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Pinterest Internal Tools",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Optum Store",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-code",
+      "name": "Consultancy",
+      "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-laptop-code",
+      "name": "Development",
+      "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-sitemap",
+      "name": "Architecture",
+      "text": "I will help you define the best possible architecture and technology alternatives to develop or re-implement your application, improve performance, and eliminate performance issues."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cloud",
+      "name": "Cloud Solutions",
+      "text": "Expertise in AWS, Kubernetes, and cloud architecture to build scalable and reliable applications."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-database",
+      "name": "Backend Development",
+      "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-mobile-alt",
+      "name": "Frontend Development",
+      "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Carlos's expertise in microservices architecture transformed our application's performance and scalability. His attention to detail and technical knowledge is exceptional.\"",
+      "name": "Canela Meffert"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Working with Carlos on the Landmark Map project was a game-changer. His ability to architect and develop complex mapping solutions is truly impressive.\"",
+      "name": "David Auza"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Carlos's implementation of our scheduling system significantly improved our operational efficiency. His technical leadership and problem-solving skills are outstanding.\"",
+      "name": "Max Stuart"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"The Aqueduct platform Carlos developed has become an essential tool for our water risk analysis. His full-stack expertise made the project a success.\"",
+      "name": "Julian Medina"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Carlos's work on our e-commerce platform has significantly improved our conversion rates. His understanding of both frontend and backend technologies is remarkable.\"",
+      "name": "Eduardo Diaz"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"The performance optimizations Carlos implemented in our application have made a dramatic difference. His technical skills and attention to detail are exceptional.\"",
+      "name": "Yuri Pauluci"
     }
   ],
+  "TeamDescription": "Meet the team that makes Adelsoft Web Development possible. We are a team of experienced professionals who are dedicated to providing the best possible service to our clients.",
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Carlos Del Real",
+      "job": "Fullstack Engineer"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Adonys Medina",
+      "job": "Backend Engineer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Yuri Pauluci",
+      "job": "UX/UI Designer"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
+      "name": "Canela Meffert",
       "job": "Project Manager"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Floridablanca, Colombia",
+    "phone": "+57 (301) 308-8500",
+    "email": "carloshdelreal@gmail.com",
+    "facebook": "facebook.com/carloshdelreal",
+    "github": "github.com/carloshdelreal",
+    "linkedin": "linkedin.com/in/carloshdelreal"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-rocket",
+      "title": "Fast Development",
+      "text": "Delivering high-quality web solutions quickly and efficiently using modern development practices and tools."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-shield",
+      "title": "Secure Solutions",
+      "text": "Implementing security best practices to protect your website and user data from potential threats."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-line-chart",
+      "title": "Scalable Architecture",
+      "text": "Designing solutions that scale with your business, ensuring optimal performance as your user base grows."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-code-branch",
+      "title": "Modern Tech Stack",
+      "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
     }
   ]
 }
