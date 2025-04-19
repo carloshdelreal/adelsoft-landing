@@ -16,10 +16,5 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Install dependencies
-      run: |
-        yarn install --frozen-lockfile || yarn install
-        yarn check --integrity
-
     - name: Build
-      run: yarn build 
+      run: npm run build
