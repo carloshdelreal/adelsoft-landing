@@ -18,11 +18,11 @@ jobs:
 
     - name: Install dependencies
       run: |
-        yarn install --frozen-lockfile || yarn install
-        yarn check --integrity
+        npm ci
+        npm audit fix
 
     - name: Build
-      run: yarn build
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
