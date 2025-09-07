@@ -1,6 +1,20 @@
 import React from "react";
+import { useLanguage } from "../contexts/LanguageContext";
 
-export const Navigation = (props) => {
+export const Navigation = ({ data }) => {
+  const { language, toggleLanguage } = useLanguage();
+  
+  // Get navigation text based on current language
+  const navText = data?.languages?.[language]?.nav || {
+    features: "Features",
+    about: "About", 
+    services: "Services",
+    gallery: "Gallery",
+    testimonials: "Testimonials",
+    team: "Team",
+    contact: "Contact"
+  };
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -29,38 +43,47 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-                Features
+                {navText.features}
               </a>
             </li>
             <li>
               <a href="#about" className="page-scroll">
-                About
+                {navText.about}
               </a>
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Services
+                {navText.services}
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                {navText.gallery}
               </a>
             </li>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
+                {navText.testimonials}
               </a>
             </li>
             <li>
               <a href="#team" className="page-scroll">
-                Team
+                {navText.team}
               </a>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                {navText.contact}
               </a>
+            </li>
+            <li className="language-selector">
+              <button 
+                onClick={toggleLanguage}
+                className="language-btn"
+                title={language === 'en' ? 'Cambiar a Español' : 'Switch to English'}
+              >
+                {language === 'en' ? 'ES' : 'EN'}
+              </button>
             </li>
           </ul>
         </div>

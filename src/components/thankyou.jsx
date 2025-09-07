@@ -1,7 +1,10 @@
 import React from "react";
 import { Gallery } from "./gallery";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export const ThankYou = ({ data, landingPageData }) => {
+  const { language } = useLanguage();
+  
   const renderMarkdownText = (text) => {
     if (!text) return "";
     return text.split('**').map((part, index) => 
@@ -56,7 +59,7 @@ export const ThankYou = ({ data, landingPageData }) => {
         {/* Achievement Section */}
         <div className="achievement-section text-center">
           <h3 className="achievement-text">{data.achievement || "Desarrollamos proyectos de software exitosamente"}</h3>
-          <a href="/#contact" className="btn-custom btn-lg">
+          <a href={`/${language}/#contact`} className="btn-custom btn-lg">
             {data.ctaText || "Quiero más información"}
           </a>
         </div>
@@ -76,7 +79,7 @@ export const ThankYou = ({ data, landingPageData }) => {
               </div>
             </div>
             <div className="text-center">
-              <a href="/#contact" className="btn-custom btn-lg">
+              <a href={`/${language}/#contact`} className="btn-custom btn-lg">
                 {data.ctaText || "Quiero más información"}
               </a>
             </div>

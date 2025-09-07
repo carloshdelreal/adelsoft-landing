@@ -1,223 +1,476 @@
 {
-  "Header": {
-    "title": "Adelsoft Web Development",
-    "paragraph": "Web development services. We will develop the app that your customers will love and your competition will hate."
-  },
-  "About": {
-    "paragraph": "With over 8 years of experience in web development, we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
-    "Why": [
-      "Fullstack Development",
-      "Cloud Architecture",
-      "Microservices",
-      "Performance Optimization"
-    ],
-    "Why2": [
-      "Modern Tech Stack",
-      "Scalable Solutions",
-      "Security First",
-      "Continuous Support"
-    ]
-  },
-  "GaleryDescription": "Here are some of the projects We've worked on. We have been developing applications for the last 8 years, from architecture, frontend, backend and cloud infrastructure. With the highest developing standards.",
-  "Gallery": [
-    {
-      "title": "Landmark Map",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png"
-    },
-    {
-      "title": "Water Peace and Security",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png"
-    },
-    {
-      "title": "Aqueduct Files",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png"
-    },
-    {
-      "title": "Souperbowl of Caring",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png"
-    },
-    {
-      "title": "Seller Insight",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png"
-    },
-    {
-      "title": "Newsela Classroom",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png"
-    },
-    {
-      "title": "Five to Nine",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/a324b9578d64c2d9b467ae70e35938014f7cb0a1-906x633.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/a324b9578d64c2d9b467ae70e35938014f7cb0a1-906x633.png"
-    },
-    {
-      "title": "Pinterest Internal Tools",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/bb3b5953df17e3c8d1f6cfadf2f57e9b4e8ce77c-3268x1710.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/bb3b5953df17e3c8d1f6cfadf2f57e9b4e8ce77c-3268x1710.png"
-    },
-    {
-      "title": "Optum Store",
-      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
-      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-code",
-      "name": "Consultancy",
-      "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
-    },
-    {
-      "icon": "fa fa-terminal",
-      "name": "Development",
-      "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
-    },
-    {
-      "icon": "fa fa-sitemap",
-      "name": "Architecture",
-      "text": "I will help you define the best possible architecture and technology alternatives to develop or re-implement your application, improve performance, and eliminate performance issues."
-    },
-    {
-      "icon": "fa fa-cloud",
-      "name": "Cloud Solutions",
-      "text": "Expertise in AWS, Kubernetes, and cloud architecture to build scalable and reliable applications."
-    },
-    {
-      "icon": "fa fa-database",
-      "name": "Backend Development",
-      "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
-    },
-    {
-      "icon": "fa fa-desktop",
-      "name": "Frontend Development",
-      "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
-      "text": "\"Carlos's expertise in microservices architecture transformed our application's performance and scalability. His attention to detail and technical knowledge is exceptional.\"",
-      "name": "Canela Meffert"
-    },
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/2dfb63ec5287fda9481adb3dab013e781f4f8554-512x512.jpg",
-      "text": "\"Working with Carlos on the Landmark Map project was a game-changer. His ability to architect and develop complex mapping solutions is truly impressive.\"",
-      "name": "David Auza"
-    },
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/756facf2b3c84024f378770fe71f9ee21d79257e-512x512.png",
-      "text": "\"Carlos's implementation of our scheduling system significantly improved our operational efficiency. His technical leadership and problem-solving skills are outstanding.\"",
-      "name": "Max Stuart"
-    },
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/1f553b0fa930535908e0d1a5cec1ecf721459f77-800x800.jpg",
-      "text": "\"The Aqueduct platform Carlos developed has become an essential tool for our water risk analysis. His full-stack expertise made the project a success.\"",
-      "name": "Julian Medina"
-    },
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/352f03fa68e85066b6d48d072cd5260ff964e4f4-800x800.jpg",
-      "text": "\"Carlos's work on our e-commerce platform has significantly improved our conversion rates. His understanding of both frontend and backend technologies is remarkable.\"",
-      "name": "Eduardo Diaz"
-    },
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
-      "text": "\"The performance optimizations Carlos implemented in our application have made a dramatic difference. His technical skills and attention to detail are exceptional.\"",
-      "name": "Yuri Pauluci"
-    }
-  ],
-  "TeamDescription": "Meet the team that makes Adelsoft Web Development possible. We are a team of experienced professionals who are dedicated to providing the best possible service to our clients.",
-  "Team": [
-    {
-      "img": "https://carloshdelreal.com/carlos-profile.jpg",
-      "name": "Carlos Del Real",
-      "job": "Fullstack Engineer"
-    },
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/81e2d5cf3b553ca481b6cc85069a1bcbdc1ceace-607x607.jpg",
-      "name": "Adonys Medina",
-      "job": "Backend Engineer"
-    },
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
-      "name": "Yuri Pauluci",
-      "job": "UX/UI Designer"
-    },
-    {
-      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
-      "name": "Canela Meffert",
-      "job": "Project Manager"
-    }
-  ],
-  "Contact": {
-    "address": "Floridablanca, Colombia",
-    "phone": "+57 (301) 308-8500",
-    "email": "carloshdelreal@gmail.com",
-    "facebook": "facebook.com/carloshdelreal",
-    "github": "github.com/carloshdelreal",
-    "linkedin": "linkedin.com/in/carloshdelreal"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-rocket",
-      "title": "Fast Development",
-      "text": "Delivering high-quality web solutions quickly and efficiently using modern development practices and tools."
-    },
-    {
-      "icon": "fa fa-shield",
-      "title": "Secure Solutions",
-      "text": "Implementing security best practices to protect your website and user data from potential threats."
-    },
-    {
-      "icon": "fa fa-line-chart",
-      "title": "Scalable Architecture",
-      "text": "Designing solutions that scale with your business, ensuring optimal performance as your user base grows."
-    },
-    {
-      "icon": "fa fa-cogs",
-      "title": "Modern Tech Stack",
-      "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
-    }
-  ],
-  "ThankYou": {
-    "title": "¡Tu consulta fue enviada con éxito!",
-    "subtitle": "En los próximos días, nuestro equipo te contactará vía **WhatsApp** para confirmar tu asistencia en la **consultoría**, recuerde **estar atento** a su **WhatsApp**. Si **no recibimos respuesta** tendremos que **cancelarla.**",
-    "targetAudience": {
-      "title": "¿Para quién es esta consultoría?",
-      "items": [
-        "Empresas que estén buscando desarrollar un software a medida",
-        "Pymes que busquen una transformación digital",
-        "Startups que busquen validar una idea de negocio",
-        "Otro tipo de empresas u emprendimientos que busquen desarrollar una app a medida",
-        "Empresas que busquen consultoría en desarrollo de software a la medida"
-      ]
-    },
-    "achievement": "Desarrollamos +100 proyectos de software y aplicaciones exitosamente",
-    "ctaText": "Quiero más información",
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "questions": [
+  "languages": {
+    "en": {
+      "nav": {
+        "features": "Features",
+        "about": "About",
+        "services": "Services",
+        "gallery": "Gallery",
+        "testimonials": "Testimonials",
+        "team": "Team",
+        "contact": "Contact"
+      },
+      "Header": {
+        "title": "Adelsoft Web Development",
+        "paragraph": "Web development services. We will develop the app that your customers will love and your competition will hate."
+      },
+      "About": {
+        "paragraph": "With over 8 years of experience in web development, we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
+        "Why": [
+          "Fullstack Development",
+          "Cloud Architecture",
+          "Microservices",
+          "Performance Optimization"
+        ],
+        "Why2": [
+          "Modern Tech Stack",
+          "Scalable Solutions",
+          "Security First",
+          "Continuous Support"
+        ]
+      },
+      "Services": [
         {
-          "question": "¿Cómo funciona la consultoría?",
-          "answer": "Revisaremos tu proyecto, para darte un mapa claro de cómo podemos ayudarte a realizar tu proyecto de software o app en tiempo récord y sin perder la calidad del mismo."
+          "icon": "fa fa-code",
+          "name": "Consultancy",
+          "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
         },
         {
-          "question": "¿Qué resultados puedo esperar?",
-          "answer": "Nuestro equipo garantiza la calidad de todos y cada unos de nuestros proyectos, además nuestra metodología de trabajo ágil logra que tu desarrollo se comience lo mas rápido posible."
+          "icon": "fa fa-terminal",
+          "name": "Development",
+          "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
         },
         {
-          "question": "¿Por qué ustedes?",
-          "answer": "Llevamos +100 desarrollos exitosos, pasando por incontables industrias, trabajar con nosotros es asegurar el éxito de tu proyecto, además de poder iniciarlo muy rápido."
+          "icon": "fa fa-sitemap",
+          "name": "Architecture",
+          "text": "I will help you define the best possible architecture and technology alternatives to develop or re-implement your application, improve performance, and eliminate performance issues."
+        },
+        {
+          "icon": "fa fa-cloud",
+          "name": "Cloud Solutions",
+          "text": "Expertise in AWS, Kubernetes, and cloud architecture to build scalable and reliable applications."
+        },
+        {
+          "icon": "fa fa-database",
+          "name": "Backend Development",
+          "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
+        },
+        {
+          "icon": "fa fa-desktop",
+          "name": "Frontend Development",
+          "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
         }
-      ]
+      ],
+      "Features": [
+        {
+          "icon": "fa fa-rocket",
+          "title": "Fast Development",
+          "text": "Delivering high-quality web solutions quickly and efficiently using modern development practices and tools."
+        },
+        {
+          "icon": "fa fa-shield",
+          "title": "Secure Solutions",
+          "text": "Implementing security best practices to protect your website and user data from potential threats."
+        },
+        {
+          "icon": "fa fa-line-chart",
+          "title": "Scalable Architecture",
+          "text": "Designing solutions that scale with your business, ensuring optimal performance as your user base grows."
+        },
+        {
+          "icon": "fa fa-cogs",
+          "title": "Modern Tech Stack",
+          "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
+        }
+      ],
+      "GalleryDescription": {
+        "description": "Here are some of the projects We've worked on. We have been developing applications for the last 8 years, from architecture, frontend, backend and cloud infrastructure. With the highest developing standards."
+      },
+      "TeamDescription": {
+        "description": "Meet the team that makes Adelsoft Web Development possible. We are a team of experienced professionals who are dedicated to providing the best possible service to our clients."
+      },
+      "Contact": {
+        "address": "Floridablanca, Colombia",
+        "phone": "+57 (301) 308-8500",
+        "email": "carloshdelreal@gmail.com",
+        "facebook": "facebook.com/carloshdelreal",
+        "github": "github.com/carloshdelreal",
+        "linkedin": "linkedin.com/in/carloshdelreal"
+      },
+      "Gallery": [
+        {
+          "title": "Landmark Map",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png"
+        },
+        {
+          "title": "Water Peace and Security",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png"
+        },
+        {
+          "title": "Aqueduct Files",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png"
+        },
+        {
+          "title": "Souperbowl of Caring",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png"
+        },
+        {
+          "title": "Seller Insight",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png"
+        },
+        {
+          "title": "Newsela Classroom",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png"
+        },
+        {
+          "title": "Five to Nine",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png"
+        },
+        {
+          "title": "Pinterest Internal Tools",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png"
+        },
+        {
+          "title": "Optum Store",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png"
+        }
+      ],
+      "Testimonials": [
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
+          "text": "\"Carlos's expertise in microservices architecture transformed our application's performance and scalability. His attention to detail and technical knowledge is exceptional.\"",
+          "name": "Canela Meffert"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"Working with Carlos on the Landmark Map project was a game-changer. His ability to architect and develop complex mapping solutions is truly impressive.\"",
+          "name": "David Auza"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"Carlos's implementation of our scheduling system significantly improved our operational efficiency. His technical leadership and problem-solving skills are outstanding.\"",
+          "name": "Max Stuart"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"The Aqueduct platform Carlos developed has become an essential tool for our water risk analysis. His full-stack expertise made the project a success.\"",
+          "name": "Julian Medina"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"Carlos's work on our e-commerce platform has significantly improved our conversion rates. His understanding of both frontend and backend technologies is remarkable.\"",
+          "name": "Eduardo Diaz"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"The performance optimizations Carlos implemented in our application have made a dramatic difference. His technical skills and attention to detail are exceptional.\"",
+          "name": "Yuri Pauluci"
+        }
+      ],
+      "Team": [
+        {
+          "img": "https://carloshdelreal.com/carlos-profile.jpg",
+          "name": "Carlos Del Real",
+          "job": "Fullstack Engineer"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "name": "Adonys Medina",
+          "job": "Backend Engineer"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "name": "Yuri Pauluci",
+          "job": "UX/UI Designer"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
+          "name": "Canela Meffert",
+          "job": "Project Manager"
+        }
+      ],
+      "ThankYou": {
+        "title": "Your inquiry was sent successfully!",
+        "subtitle": "In the next few days, our team will contact you via **WhatsApp** to confirm your attendance at the **consultation**, remember to **be attentive** to your **WhatsApp**. If **we don't receive a response** we will have to **cancel it.**",
+        "targetAudience": {
+          "title": "Who is this consultation for?",
+          "items": [
+            "Companies looking to develop custom software",
+            "SMEs seeking digital transformation",
+            "Startups looking to validate a business idea",
+            "Other types of companies or ventures looking to develop a custom app",
+            "Companies seeking custom software development consulting"
+          ]
+        },
+        "achievement": "We have successfully developed +100 software and application projects",
+        "ctaText": "I want more information",
+        "faq": {
+          "title": "Frequently Asked Questions",
+          "questions": [
+            {
+              "question": "How does the consultation work?",
+              "answer": "We will review your project to give you a clear map of how we can help you carry out your software or app project in record time without losing quality."
+            },
+            {
+              "question": "What results can I expect?",
+              "answer": "Our team guarantees the quality of each and every one of our projects, in addition, our agile work methodology ensures that your development begins as quickly as possible."
+            },
+            {
+              "question": "Why you?",
+              "answer": "We have +100 successful developments, going through countless industries, working with us is ensuring the success of your project, in addition to being able to start it very quickly."
+            }
+          ]
+        },
+        "footer": {
+          "copyright": "Adelsoft Web Development – All rights reserved",
+          "privacy": "Privacy Policy"
+        }
+      }
     },
-    "footer": {
-      "copyright": "Adelsoft Web Development – Todos los derechos reservados",
-      "privacy": "Políticas de privacidad"
+    "es": {
+      "nav": {
+        "features": "Características",
+        "about": "Acerca de",
+        "services": "Servicios",
+        "gallery": "Galería",
+        "testimonials": "Testimonios",
+        "team": "Equipo",
+        "contact": "Contacto"
+      },
+      "Header": {
+        "title": "Adelsoft Desarrollo Web",
+        "paragraph": "Servicios de desarrollo web. Desarrollaremos la aplicación que tus clientes amarán y tu competencia odiará."
+      },
+      "About": {
+        "paragraph": "Con más de 8 años de experiencia en desarrollo web, nos especializamos en crear aplicaciones web de alto rendimiento utilizando tecnologías modernas. Nuestra experiencia abarca desarrollo backend, servicios en la nube, bases de datos, desarrollo frontend y múltiples lenguajes de programación. Tenemos amplia experiencia trabajando con aplicaciones web reales y en vivo en toda la pila, nuestra pasión es construir soluciones innovadoras.",
+        "Why": [
+          "Desarrollo Fullstack",
+          "Arquitectura en la Nube",
+          "Microservicios",
+          "Optimización de Rendimiento"
+        ],
+        "Why2": [
+          "Stack Tecnológico Moderno",
+          "Soluciones Escalables",
+          "Seguridad Primero",
+          "Soporte Continuo"
+        ]
+      },
+      "Services": [
+        {
+          "icon": "fa fa-code",
+          "name": "Consultoría",
+          "text": "Puedo ayudarte a definir prioridades, esbozar perfiles que tu proyecto debería contratar, evaluar la viabilidad técnica, definir presupuestos y proporcionar estimaciones de tiempo."
+        },
+        {
+          "icon": "fa fa-terminal",
+          "name": "Desarrollo",
+          "text": "Trae tu proyecto o idea en cualquier etapa, y te ayudaré a desarrollarlo, profundizarlo y hacerlo realidad. Agreguemos más características e integraciones geniales que ayuden a tu negocio a crecer."
+        },
+        {
+          "icon": "fa fa-sitemap",
+          "name": "Arquitectura",
+          "text": "Te ayudaré a definir la mejor arquitectura posible y alternativas tecnológicas para desarrollar o re-implementar tu aplicación, mejorar el rendimiento y eliminar problemas de rendimiento."
+        },
+        {
+          "icon": "fa fa-cloud",
+          "name": "Soluciones en la Nube",
+          "text": "Experiencia en AWS, Kubernetes y arquitectura en la nube para construir aplicaciones escalables y confiables."
+        },
+        {
+          "icon": "fa fa-database",
+          "name": "Desarrollo Backend",
+          "text": "Especializado en Node.js, Ruby on Rails y Python para construir sistemas backend robustos y APIs."
+        },
+        {
+          "icon": "fa fa-desktop",
+          "name": "Desarrollo Frontend",
+          "text": "Competente en React, Next.js, TypeScript y tecnologías frontend modernas para crear interfaces de usuario responsivas e interactivas."
+        }
+      ],
+      "Features": [
+        {
+          "icon": "fa fa-rocket",
+          "title": "Desarrollo Rápido",
+          "text": "Entregando soluciones web de alta calidad de manera rápida y eficiente utilizando prácticas y herramientas de desarrollo modernas."
+        },
+        {
+          "icon": "fa fa-shield",
+          "title": "Soluciones Seguras",
+          "text": "Implementando mejores prácticas de seguridad para proteger tu sitio web y datos de usuarios de posibles amenazas."
+        },
+        {
+          "icon": "fa fa-line-chart",
+          "title": "Arquitectura Escalable",
+          "text": "Diseñando soluciones que escalan con tu negocio, asegurando un rendimiento óptimo a medida que tu base de usuarios crece."
+        },
+        {
+          "icon": "fa fa-cogs",
+          "title": "Stack Tecnológico Moderno",
+          "text": "Usando tecnologías de vanguardia incluyendo React, Node.js, TypeScript, Ruby on Rails y AWS para construir aplicaciones robustas."
+        }
+      ],
+      "GalleryDescription": {
+        "description": "Aquí están algunos de los proyectos en los que hemos trabajado. Hemos estado desarrollando aplicaciones durante los últimos 8 años, desde arquitectura, frontend, backend e infraestructura en la nube. Con los más altos estándares de desarrollo."
+      },
+      "TeamDescription": {
+        "description": "Conoce al equipo que hace posible Adelsoft Web Development. Somos un equipo de profesionales experimentados que se dedican a proporcionar el mejor servicio posible a nuestros clientes."
+      },
+      "Contact": {
+        "address": "Floridablanca, Colombia",
+        "phone": "+57 (301) 308-8500",
+        "email": "carloshdelreal@gmail.com",
+        "facebook": "facebook.com/carloshdelreal",
+        "github": "github.com/carloshdelreal",
+        "linkedin": "linkedin.com/in/carloshdelreal"
+      },
+      "Gallery": [
+        {
+          "title": "Landmark Map",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png"
+        },
+        {
+          "title": "Water Peace and Security",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png"
+        },
+        {
+          "title": "Aqueduct Files",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png"
+        },
+        {
+          "title": "Souperbowl of Caring",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png"
+        },
+        {
+          "title": "Seller Insight",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png"
+        },
+        {
+          "title": "Newsela Classroom",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png"
+        },
+        {
+          "title": "Five to Nine",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png"
+        },
+        {
+          "title": "Pinterest Internal Tools",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png"
+        },
+        {
+          "title": "Optum Store",
+          "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+          "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png"
+        }
+      ],
+      "Testimonials": [
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
+          "text": "\"La experiencia de Carlos en arquitectura de microservicios transformó el rendimiento y escalabilidad de nuestra aplicación. Su atención al detalle y conocimiento técnico es excepcional.\"",
+          "name": "Canela Meffert"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"Trabajar con Carlos en el proyecto Landmark Map fue un cambio total. Su capacidad para arquitecturar y desarrollar soluciones de mapeo complejas es realmente impresionante.\"",
+          "name": "David Auza"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"La implementación del sistema de programación de Carlos mejoró significativamente nuestra eficiencia operacional. Su liderazgo técnico y habilidades de resolución de problemas son sobresalientes.\"",
+          "name": "Max Stuart"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"La plataforma Aqueduct que Carlos desarrolló se ha convertido en una herramienta esencial para nuestro análisis de riesgo hídrico. Su experiencia full-stack hizo que el proyecto fuera un éxito.\"",
+          "name": "Julian Medina"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"El trabajo de Carlos en nuestra plataforma de comercio electrónico mejoró significativamente nuestras tasas de conversión. Su comprensión de las tecnologías frontend y backend es notable.\"",
+          "name": "Eduardo Diaz"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "text": "\"Las optimizaciones de rendimiento que Carlos implementó en nuestra aplicación han marcado una diferencia dramática. Sus habilidades técnicas y atención al detalle son excepcionales.\"",
+          "name": "Yuri Pauluci"
+        }
+      ],
+      "Team": [
+        {
+          "img": "https://carloshdelreal.com/carlos-profile.jpg",
+          "name": "Carlos Del Real",
+          "job": "Ingeniero Fullstack"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "name": "Adonys Medina",
+          "job": "Ingeniero Backend"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
+          "name": "Yuri Pauluci",
+          "job": "Diseñador UX/UI"
+        },
+        {
+          "img": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
+          "name": "Canela Meffert",
+          "job": "Gerente de Proyecto"
+        }
+      ],
+      "ThankYou": {
+        "title": "¡Tu consulta fue enviada con éxito!",
+        "subtitle": "En los próximos días, nuestro equipo te contactará vía **WhatsApp** para confirmar tu asistencia en la **consultoría**, recuerde **estar atento** a su **WhatsApp**. Si **no recibimos respuesta** tendremos que **cancelarla.**",
+        "targetAudience": {
+          "title": "¿Para quién es esta consultoría?",
+          "items": [
+            "Empresas que estén buscando desarrollar un software a medida",
+            "Pymes que busquen una transformación digital",
+            "Startups que busquen validar una idea de negocio",
+            "Otro tipo de empresas u emprendimientos que busquen desarrollar una app a medida",
+            "Empresas que busquen consultoría en desarrollo de software a la medida"
+          ]
+        },
+        "achievement": "Desarrollamos +100 proyectos de software y aplicaciones exitosamente",
+        "ctaText": "Quiero más información",
+        "faq": {
+          "title": "Preguntas frecuentes",
+          "questions": [
+            {
+              "question": "¿Cómo funciona la consultoría?",
+              "answer": "Revisaremos tu proyecto, para darte un mapa claro de cómo podemos ayudarte a realizar tu proyecto de software o app en tiempo récord y sin perder la calidad del mismo."
+            },
+            {
+              "question": "¿Qué resultados puedo esperar?",
+              "answer": "Nuestro equipo garantiza la calidad de todos y cada unos de nuestros proyectos, además nuestra metodología de trabajo ágil logra que tu desarrollo se comience lo mas rápido posible."
+            },
+            {
+              "question": "¿Por qué ustedes?",
+              "answer": "Llevamos +100 desarrollos exitosos, pasando por incontables industrias, trabajar con nosotros es asegurar el éxito de tu proyecto, además de poder iniciarlo muy rápido."
+            }
+          ]
+        },
+        "footer": {
+          "copyright": "Adelsoft Web Development – Todos los derechos reservados",
+          "privacy": "Políticas de privacidad"
+        }
+      }
     }
   }
 }
