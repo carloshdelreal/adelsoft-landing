@@ -4,7 +4,7 @@
     "paragraph": "Agency-level web development services at freelance rates. I will develop the app that your customers will love and your competition will hate."
   },
   "About": {
-    "paragraph": "With over 6 years of experience in web development, I specialize in creating high-performance web applications using modern technologies. My expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. I have extensive experience working with real, live web applications across the entire stack and am passionate about building innovative solutions.",
+    "paragraph": "With over 8 years of experience in web development, I we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
     "Why": [
       "Fullstack Development",
       "Cloud Architecture",
@@ -18,52 +18,52 @@
       "Continuous Support"
     ]
   },
-  "GaleryDescription": "Here are some of the projects I've worked on. I've been a fullstack developer for over 6 years, and I've worked on a variety of projects. I've also been a cloud architect and a backend engineer. I've also worked on frontend development and multiple programming languages.",
+  "GaleryDescription": "Here are some of the projects We've worked on. We have been developing applications for the last 8 years, from architecture, frontend, backend and cloud infrastructure. With the highest developing standards.",
   "Gallery": [
     {
       "title": "Landmark Map",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png"
     },
     {
       "title": "Water Peace and Security",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png"
     },
     {
       "title": "Aqueduct Files",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png"
     },
     {
       "title": "Souperbowl of Caring",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png"
     },
     {
       "title": "Seller Insight",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png"
     },
     {
       "title": "Newsela Classroom",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png"
     },
     {
       "title": "Five to Nine",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/a324b9578d64c2d9b467ae70e35938014f7cb0a1-906x633.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/a324b9578d64c2d9b467ae70e35938014f7cb0a1-906x633.png"
     },
     {
       "title": "Pinterest Internal Tools",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/bb3b5953df17e3c8d1f6cfadf2f57e9b4e8ce77c-3268x1710.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/bb3b5953df17e3c8d1f6cfadf2f57e9b4e8ce77c-3268x1710.png"
     },
     {
       "title": "Optum Store",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+      "smallImage": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png"
     }
   ],
   "Services": [
