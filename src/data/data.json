@@ -1,10 +1,10 @@
 {
   "Header": {
     "title": "Adelsoft Web Development",
-    "paragraph": "Agency-level web development services at freelance rates. I will develop the app that your customers will love and your competition will hate."
+    "paragraph": "Web development services. We will develop the app that your customers will love and your competition will hate."
   },
   "About": {
-    "paragraph": "With over 8 years of experience in web development, I we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
+    "paragraph": "With over 8 years of experience in web development, we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
     "Why": [
       "Fullstack Development",
       "Cloud Architecture",
@@ -100,32 +100,32 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
       "text": "\"Carlos's expertise in microservices architecture transformed our application's performance and scalability. His attention to detail and technical knowledge is exceptional.\"",
       "name": "Canela Meffert"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/2dfb63ec5287fda9481adb3dab013e781f4f8554-512x512.jpg",
       "text": "\"Working with Carlos on the Landmark Map project was a game-changer. His ability to architect and develop complex mapping solutions is truly impressive.\"",
       "name": "David Auza"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/756facf2b3c84024f378770fe71f9ee21d79257e-512x512.png",
       "text": "\"Carlos's implementation of our scheduling system significantly improved our operational efficiency. His technical leadership and problem-solving skills are outstanding.\"",
       "name": "Max Stuart"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/1f553b0fa930535908e0d1a5cec1ecf721459f77-800x800.jpg",
       "text": "\"The Aqueduct platform Carlos developed has become an essential tool for our water risk analysis. His full-stack expertise made the project a success.\"",
       "name": "Julian Medina"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/352f03fa68e85066b6d48d072cd5260ff964e4f4-800x800.jpg",
       "text": "\"Carlos's work on our e-commerce platform has significantly improved our conversion rates. His understanding of both frontend and backend technologies is remarkable.\"",
       "name": "Eduardo Diaz"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
       "text": "\"The performance optimizations Carlos implemented in our application have made a dramatic difference. His technical skills and attention to detail are exceptional.\"",
       "name": "Yuri Pauluci"
     }
@@ -133,22 +133,22 @@
   "TeamDescription": "Meet the team that makes Adelsoft Web Development possible. We are a team of experienced professionals who are dedicated to providing the best possible service to our clients.",
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "https://carloshdelreal.com/carlos-profile.jpg",
       "name": "Carlos Del Real",
       "job": "Fullstack Engineer"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/81e2d5cf3b553ca481b6cc85069a1bcbdc1ceace-607x607.jpg",
       "name": "Adonys Medina",
       "job": "Backend Engineer"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
       "name": "Yuri Pauluci",
       "job": "UX/UI Designer"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
       "name": "Canela Meffert",
       "job": "Project Manager"
     }
