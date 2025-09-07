@@ -78,9 +78,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            <a href="https://adelsoft.com" rel="nofollow">
+              &copy; 2023 Adelsoft Web Development.
             </a>
           </p>
         </div>

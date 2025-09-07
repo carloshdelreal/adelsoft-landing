@@ -182,5 +182,42 @@
       "title": "Modern Tech Stack",
       "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
     }
-  ]
+  ],
+  "ThankYou": {
+    "title": "¡Tu consulta fue enviada con éxito!",
+    "subtitle": "En los próximos días, nuestro equipo te contactará vía **WhatsApp** para confirmar tu asistencia en la **consultoría**, recuerde **estar atento** a su **WhatsApp**. Si **no recibimos respuesta** tendremos que **cancelarla.**",
+    "targetAudience": {
+      "title": "¿Para quién es esta consultoría?",
+      "items": [
+        "Empresas que estén buscando desarrollar un software a medida",
+        "Pymes que busquen una transformación digital",
+        "Startups que busquen validar una idea de negocio",
+        "Otro tipo de empresas u emprendimientos que busquen desarrollar una app a medida",
+        "Empresas que busquen consultoría en desarrollo de software a la medida"
+      ]
+    },
+    "achievement": "Desarrollamos +100 proyectos de software y aplicaciones exitosamente",
+    "ctaText": "Quiero más información",
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "questions": [
+        {
+          "question": "¿Cómo funciona la consultoría?",
+          "answer": "Revisaremos tu proyecto, para darte un mapa claro de cómo podemos ayudarte a realizar tu proyecto de software o app en tiempo récord y sin perder la calidad del mismo."
+        },
+        {
+          "question": "¿Qué resultados puedo esperar?",
+          "answer": "Nuestro equipo garantiza la calidad de todos y cada unos de nuestros proyectos, además nuestra metodología de trabajo ágil logra que tu desarrollo se comience lo mas rápido posible."
+        },
+        {
+          "question": "¿Por qué ustedes?",
+          "answer": "Llevamos +100 desarrollos exitosos, pasando por incontables industrias, trabajar con nosotros es asegurar el éxito de tu proyecto, además de poder iniciarlo muy rápido."
+        }
+      ]
+    },
+    "footer": {
+      "copyright": "Adelsoft Web Development – Todos los derechos reservados",
+      "privacy": "Políticas de privacidad"
+    }
+  }
 }
