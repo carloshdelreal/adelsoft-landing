@@ -82,7 +82,7 @@ export const Schedule = ({ languageData, landingPageData }) => {
         {/* Contact Form */}
         <div className="schedule-form-section">
           <div className="row">
-            <div className="col-md-8 col-md-offset-2">
+            <div className="col-md-12">
               <div className="schedule-form-container">
                 <h3 className="form-title">{data.formTitle || "Completa el formulario para agendar tu consultoría"}</h3>
                 <iframe

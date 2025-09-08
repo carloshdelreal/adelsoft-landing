@@ -16,6 +16,18 @@ export const LanguageProvider = ({ children }) => {
   const location = useLocation();
   const [language, setLanguage] = useState('en');
 
+  // Route mapping between languages
+  const routeMapping = {
+    'en': {
+      'schedule': 'schedule',
+      'thankyou': 'thankyou'
+    },
+    'es': {
+      'schedule': 'agendar',
+      'thankyou': 'gracias'
+    }
+  };
+
   // Extract language from URL path
   useEffect(() => {
     const pathSegments = location.pathname.split('/').filter(Boolean);
@@ -32,8 +44,32 @@ export const LanguageProvider = ({ children }) => {
   const switchLanguage = (newLang) => {
     if (newLang === 'en' || newLang === 'es') {
       const currentPath = location.pathname;
-      const pathWithoutLang = currentPath.replace(/^\/[a-z]{2}/, '') || '/';
-      const newPath = `/${newLang}${pathWithoutLang}`;
+      const pathSegments = currentPath.split('/').filter(Boolean);
+      
+      // Remove language prefix
+      const pathWithoutLang = pathSegments.slice(1).join('/');
+      
+      // Map the route to the new language
+      let newRoute = '';
+      if (pathWithoutLang) {
+        // Find the current route in the current language mapping
+        const currentLangRoutes = routeMapping[language];
+        const newLangRoutes = routeMapping[newLang];
+        
+        // Find which route we're currently on
+        const currentRoute = Object.keys(currentLangRoutes).find(
+          key => currentLangRoutes[key] === pathWithoutLang
+        );
+        
+        if (currentRoute && newLangRoutes[currentRoute]) {
+          newRoute = newLangRoutes[currentRoute];
+        } else {
+          // If no mapping found, keep the same route
+          newRoute = pathWithoutLang;
+        }
+      }
+      
+      const newPath = `/${newLang}${newRoute ? '/' + newRoute : ''}`;
       history.push(newPath);
     }
   };
