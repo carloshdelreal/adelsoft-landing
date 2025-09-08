@@ -31,7 +31,7 @@ export const Navigation = ({ data }) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand page-scroll" href={`/${language}#page-top`}>
             Adelsoft
           </a>{" "}
         </div>
@@ -42,37 +42,37 @@ export const Navigation = ({ data }) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
+              <a href={`/${language}#features`} className="page-scroll">
                 {navText.features}
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a href={`/${language}#about`} className="page-scroll">
                 {navText.about}
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href={`/${language}#services`} className="page-scroll">
                 {navText.services}
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a href={`/${language}#portfolio`} className="page-scroll">
                 {navText.gallery}
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <a href={`/${language}#testimonials`} className="page-scroll">
                 {navText.testimonials}
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
+              <a href={`/${language}#team`} className="page-scroll">
                 {navText.team}
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href={`/${language}#contact`} className="page-scroll">
                 {navText.contact}
               </a>
             </li>
