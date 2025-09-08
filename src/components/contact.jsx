@@ -4,16 +4,9 @@ import { useLanguage } from "../contexts/LanguageContext";
 export const Contact = ({ data }) => {
   const { language } = useLanguage();
   
-  const getInTouchText = language === 'es' ? 'Ponte en Contacto' : 'Get In Touch';
-  const contactDescription = language === 'es' 
-    ? 'Haz clic en el botón de abajo para chatear con nosotros en WhatsApp. Te responderemos lo antes posible.'
-    : 'Click the button below to chat with us on WhatsApp. We\'ll get back to you as soon as possible.';
-  const chatWhatsAppText = language === 'es' ? 'Chatear en WhatsApp' : 'Chat on WhatsApp';
-  const contactInfoText = language === 'es' ? 'Información de Contacto' : 'Contact Info';
-  const addressText = language === 'es' ? 'Dirección' : 'Address';
-  const phoneText = language === 'es' ? 'Teléfono' : 'Phone';
-  const emailText = language === 'es' ? 'Correo' : 'Email';
-
+  // Get contact data from the language-specific data
+  const contactData = data?.Contact || {};
+  
   return (
     <div>
       <div id="contact">
@@ -21,43 +14,41 @@ export const Contact = ({ data }) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>{getInTouchText}</h2>
-                <p>{contactDescription}</p>
+                <h2>{contactData.title || "Schedule a Call"}</h2>
+                <p>{contactData.description || "Click the button below to schedule a free consultation with our team."}</p>
                 <a 
-                  href="https://wa.me/+573013088500" 
+                  href={`/${language}/${language === 'es' ? 'agendar' : 'schedule'}`} 
                   className="btn btn-custom btn-lg"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
-                  {chatWhatsAppText}
+                  {contactData.buttonText || "Schedule Consultation"}
                 </a>
               </div>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>{contactInfoText}</h3>
+              <h3>{contactData.contactInfoTitle || "Contact Info"}</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> {addressText}
+                  <i className="fa fa-map-marker"></i> {contactData.addressLabel || "Address"}
                 </span>
-                {data?.Contact?.address || "loading"}
+                {contactData.address || "loading"}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> {phoneText}
+                  <i className="fa fa-phone"></i> {contactData.phoneLabel || "Phone"}
                 </span>{" "}
-                {data?.Contact?.phone || "loading"}
+                {contactData.phone || "loading"}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> {emailText}
+                  <i className="fa fa-envelope-o"></i> {contactData.emailLabel || "Email"}
                 </span>{" "}
-                {data?.Contact?.email || "loading"}
+                {contactData.email || "loading"}
               </p>
             </div>
           </div>

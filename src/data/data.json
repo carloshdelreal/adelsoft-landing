@@ -112,6 +112,13 @@
         "description": "Meet the team that makes Adelsoft Web Development possible. We are a team of experienced professionals who are dedicated to providing the best possible service to our clients."
       },
       "Contact": {
+        "title": "Schedule a Call",
+        "description": "Click the button below to schedule a free consultation with our team. We'll contact you to coordinate the best time.",
+        "buttonText": "Schedule Consultation",
+        "contactInfoTitle": "Contact Info",
+        "addressLabel": "Address",
+        "phoneLabel": "Phone",
+        "emailLabel": "Email",
         "address": "Floridablanca, Colombia",
         "phone": "+57 (301) 308-8500",
         "email": "carloshdelreal@gmail.com",
@@ -410,6 +417,13 @@
         "description": "Conoce al equipo que hace posible Adelsoft Web Development. Somos un equipo de profesionales experimentados que se dedican a proporcionar el mejor servicio posible a nuestros clientes."
       },
       "Contact": {
+        "title": "Agenda una Llamada",
+        "description": "Haz clic en el botón de abajo para agendar una consultoría gratuita con nuestro equipo. Te contactaremos para coordinar la mejor hora.",
+        "buttonText": "Agendar Consultoría",
+        "contactInfoTitle": "Información de Contacto",
+        "addressLabel": "Dirección",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Correo",
         "address": "Floridablanca, Colombia",
         "phone": "+57 (301) 308-8500",
         "email": "carloshdelreal@gmail.com",
