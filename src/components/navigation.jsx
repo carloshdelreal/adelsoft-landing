@@ -1,7 +1,7 @@
 import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 
-export const Navigation = ({ data }) => {
+export const Navigation = ({ data, className }) => {
   const { language, toggleLanguage } = useLanguage();
   
   // Get navigation text based on current language
@@ -16,7 +16,7 @@ export const Navigation = ({ data }) => {
   };
 
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav id="menu" className={`navbar navbar-default navbar-fixed-top ${className || ''}`}>
       <div className="container">
         <div className="navbar-header">
           <button

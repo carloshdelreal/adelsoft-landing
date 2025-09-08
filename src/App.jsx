@@ -61,13 +61,13 @@ const App = () => {
           
           {/* English routes */}
           <Route exact path="/en" render={() => <HomePage landingPageData={landingPageData} />} />
-          <Route path="/en/thankyou" render={() => <ThankYou languageData={landingPageData.languages?.en} />} />
-          <Route path="/en/schedule" render={() => <Schedule languageData={landingPageData.languages?.en} />} />
+          <Route path="/en/thankyou" render={() => <ThankYou languageData={landingPageData.languages?.en} landingPageData={landingPageData} />} />
+          <Route path="/en/schedule" render={() => <Schedule languageData={landingPageData.languages?.en} landingPageData={landingPageData} />} />
           
           {/* Spanish routes */}
           <Route exact path="/es" render={() => <HomePage landingPageData={landingPageData} />} />
-          <Route path="/es/gracias" render={() => <ThankYou languageData={landingPageData.languages?.es} />} />
-          <Route path="/es/agendar" render={() => <Schedule languageData={landingPageData.languages?.es} />} />
+          <Route path="/es/gracias" render={() => <ThankYou languageData={landingPageData.languages?.es} landingPageData={landingPageData} />} />
+          <Route path="/es/agendar" render={() => <Schedule languageData={landingPageData.languages?.es} landingPageData={landingPageData} />} />
         </Switch>
       </LanguageProvider>
     </Router>

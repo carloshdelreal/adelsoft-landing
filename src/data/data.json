@@ -32,77 +32,77 @@
         "team": "Team",
         "contact": "Contact"
       },
-      "Header": {
-        "title": "Adelsoft Web Development",
-        "paragraph": "Web development services. We will develop the app that your customers will love and your competition will hate."
-      },
-      "About": {
-        "paragraph": "With over 8 years of experience in web development, we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
-        "Why": [
-          "Fullstack Development",
-          "Cloud Architecture",
-          "Microservices",
-          "Performance Optimization"
-        ],
-        "Why2": [
-          "Modern Tech Stack",
-          "Scalable Solutions",
-          "Security First",
-          "Continuous Support"
-        ]
-      },
-      "Services": [
-        {
-          "icon": "fa fa-code",
-          "name": "Consultancy",
-          "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
-        },
-        {
-          "icon": "fa fa-terminal",
-          "name": "Development",
-          "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
-        },
-        {
-          "icon": "fa fa-sitemap",
-          "name": "Architecture",
-          "text": "I will help you define the best possible architecture and technology alternatives to develop or re-implement your application, improve performance, and eliminate performance issues."
-        },
-        {
-          "icon": "fa fa-cloud",
-          "name": "Cloud Solutions",
-          "text": "Expertise in AWS, Kubernetes, and cloud architecture to build scalable and reliable applications."
-        },
-        {
-          "icon": "fa fa-database",
-          "name": "Backend Development",
-          "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
-        },
-        {
-          "icon": "fa fa-desktop",
-          "name": "Frontend Development",
-          "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
-        }
-      ],
-      "Features": [
-        {
-          "icon": "fa fa-rocket",
-          "title": "Fast Development",
-          "text": "Delivering high-quality web solutions quickly and efficiently using modern development practices and tools."
-        },
-        {
-          "icon": "fa fa-shield",
-          "title": "Secure Solutions",
-          "text": "Implementing security best practices to protect your website and user data from potential threats."
-        },
-        {
-          "icon": "fa fa-line-chart",
-          "title": "Scalable Architecture",
-          "text": "Designing solutions that scale with your business, ensuring optimal performance as your user base grows."
-        },
-        {
-          "icon": "fa fa-cogs",
-          "title": "Modern Tech Stack",
-          "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
+  "Header": {
+    "title": "Adelsoft Web Development",
+    "paragraph": "Web development services. We will develop the app that your customers will love and your competition will hate."
+  },
+  "About": {
+    "paragraph": "With over 8 years of experience in web development, we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
+    "Why": [
+      "Fullstack Development",
+      "Cloud Architecture",
+      "Microservices",
+      "Performance Optimization"
+    ],
+    "Why2": [
+      "Modern Tech Stack",
+      "Scalable Solutions",
+      "Security First",
+      "Continuous Support"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-code",
+      "name": "Consultancy",
+      "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
+    },
+    {
+      "icon": "fa fa-terminal",
+      "name": "Development",
+      "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
+    },
+    {
+      "icon": "fa fa-sitemap",
+      "name": "Architecture",
+      "text": "I will help you define the best possible architecture and technology alternatives to develop or re-implement your application, improve performance, and eliminate performance issues."
+    },
+    {
+      "icon": "fa fa-cloud",
+      "name": "Cloud Solutions",
+      "text": "Expertise in AWS, Kubernetes, and cloud architecture to build scalable and reliable applications."
+    },
+    {
+      "icon": "fa fa-database",
+      "name": "Backend Development",
+      "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
+    },
+    {
+      "icon": "fa fa-desktop",
+      "name": "Frontend Development",
+      "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
+    }
+  ],
+  "Features": [
+    {
+      "icon": "fa fa-rocket",
+      "title": "Fast Development",
+      "text": "Delivering high-quality web solutions quickly and efficiently using modern development practices and tools."
+    },
+    {
+      "icon": "fa fa-shield",
+      "title": "Secure Solutions",
+      "text": "Implementing security best practices to protect your website and user data from potential threats."
+    },
+    {
+      "icon": "fa fa-line-chart",
+      "title": "Scalable Architecture",
+      "text": "Designing solutions that scale with your business, ensuring optimal performance as your user base grows."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "title": "Modern Tech Stack",
+      "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
         }
       ],
       "GalleryDescription": {

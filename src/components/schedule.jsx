@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Navigation } from "./navigation";
 import { useLanguage } from "../contexts/LanguageContext";
 
-export const Schedule = ({ languageData }) => {
+export const Schedule = ({ languageData, landingPageData }) => {
   const { language } = useLanguage();
+  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
+  
+  // Handle scroll to show/hide navbar
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setIsNavbarVisible(scrollTop < 50); // Show navbar when within 50px of top
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   
   const renderMarkdownText = (text) => {
     if (!text) return "";
@@ -30,6 +43,7 @@ export const Schedule = ({ languageData }) => {
 
   return (
     <div className="schedule-page">
+      <Navigation data={landingPageData} className={isNavbarVisible ? 'navbar-visible' : 'navbar-hidden'} />
       <div className="container">
         {/* Hero Section */}
         <div className="section-title text-center">
