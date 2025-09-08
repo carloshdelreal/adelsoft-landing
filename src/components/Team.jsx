@@ -1,14 +1,19 @@
 import React from "react";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export const Team = ({ data, description }) => {
+  const { language } = useLanguage();
+  
+  const meetTheTeamText = language === 'es' ? 'Conoce al Equipo' : 'Meet the Team';
+
+  console.log(data);
+
   return (
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
-          <p>
-            {description}
-          </p>
+          <h2>{meetTheTeamText}</h2>
+          <p>{description}</p>
         </div>
         <div id="row">
           {data

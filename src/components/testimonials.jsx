@@ -1,11 +1,16 @@
 import React from "react";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export const Testimonials = (props) => {
+  const { language } = useLanguage();
+  
+  const testimonialsTitle = language === 'es' ? 'Lo que dicen nuestros clientes' : 'What our clients say';
+
   return (
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center">
-          <h2>What our clients say</h2>
+          <h2>{testimonialsTitle}</h2>
         </div>
         <div className="row" style={{ margin: 0 }}>
           {props.data
