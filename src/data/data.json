@@ -32,77 +32,77 @@
         "team": "Team",
         "contact": "Contact"
       },
-      "Header": {
-        "title": "Adelsoft Web Development",
-        "paragraph": "Web development services. We will develop the app that your customers will love and your competition will hate."
-      },
-      "About": {
-        "paragraph": "With over 8 years of experience in web development, we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
-        "Why": [
-          "Fullstack Development",
-          "Cloud Architecture",
-          "Microservices",
-          "Performance Optimization"
-        ],
-        "Why2": [
-          "Modern Tech Stack",
-          "Scalable Solutions",
-          "Security First",
-          "Continuous Support"
-        ]
-      },
-      "Services": [
-        {
-          "icon": "fa fa-code",
-          "name": "Consultancy",
-          "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
-        },
-        {
-          "icon": "fa fa-terminal",
-          "name": "Development",
-          "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
-        },
-        {
-          "icon": "fa fa-sitemap",
-          "name": "Architecture",
-          "text": "I will help you define the best possible architecture and technology alternatives to develop or re-implement your application, improve performance, and eliminate performance issues."
-        },
-        {
-          "icon": "fa fa-cloud",
-          "name": "Cloud Solutions",
-          "text": "Expertise in AWS, Kubernetes, and cloud architecture to build scalable and reliable applications."
-        },
-        {
-          "icon": "fa fa-database",
-          "name": "Backend Development",
-          "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
-        },
-        {
-          "icon": "fa fa-desktop",
-          "name": "Frontend Development",
-          "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
-        }
-      ],
-      "Features": [
-        {
-          "icon": "fa fa-rocket",
-          "title": "Fast Development",
-          "text": "Delivering high-quality web solutions quickly and efficiently using modern development practices and tools."
-        },
-        {
-          "icon": "fa fa-shield",
-          "title": "Secure Solutions",
-          "text": "Implementing security best practices to protect your website and user data from potential threats."
-        },
-        {
-          "icon": "fa fa-line-chart",
-          "title": "Scalable Architecture",
-          "text": "Designing solutions that scale with your business, ensuring optimal performance as your user base grows."
-        },
-        {
-          "icon": "fa fa-cogs",
-          "title": "Modern Tech Stack",
-          "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
+  "Header": {
+    "title": "Adelsoft Web Development",
+    "paragraph": "Web development services. We will develop the app that your customers will love and your competition will hate."
+  },
+  "About": {
+    "paragraph": "With over 8 years of experience in web development, we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
+    "Why": [
+      "Fullstack Development",
+      "Cloud Architecture",
+      "Microservices",
+      "Performance Optimization"
+    ],
+    "Why2": [
+      "Modern Tech Stack",
+      "Scalable Solutions",
+      "Security First",
+      "Continuous Support"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-code",
+      "name": "Consultancy",
+      "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
+    },
+    {
+      "icon": "fa fa-terminal",
+      "name": "Development",
+      "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
+    },
+    {
+      "icon": "fa fa-sitemap",
+      "name": "Architecture",
+      "text": "I will help you define the best possible architecture and technology alternatives to develop or re-implement your application, improve performance, and eliminate performance issues."
+    },
+    {
+      "icon": "fa fa-cloud",
+      "name": "Cloud Solutions",
+      "text": "Expertise in AWS, Kubernetes, and cloud architecture to build scalable and reliable applications."
+    },
+    {
+      "icon": "fa fa-database",
+      "name": "Backend Development",
+      "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
+    },
+    {
+      "icon": "fa fa-desktop",
+      "name": "Frontend Development",
+      "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
+    }
+  ],
+  "Features": [
+    {
+      "icon": "fa fa-rocket",
+      "title": "Fast Development",
+      "text": "Delivering high-quality web solutions quickly and efficiently using modern development practices and tools."
+    },
+    {
+      "icon": "fa fa-shield",
+      "title": "Secure Solutions",
+      "text": "Implementing security best practices to protect your website and user data from potential threats."
+    },
+    {
+      "icon": "fa fa-line-chart",
+      "title": "Scalable Architecture",
+      "text": "Designing solutions that scale with your business, ensuring optimal performance as your user base grows."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "title": "Modern Tech Stack",
+      "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
         }
       ],
       "GalleryDescription": {
@@ -112,6 +112,13 @@
         "description": "Meet the team that makes Adelsoft Web Development possible. We are a team of experienced professionals who are dedicated to providing the best possible service to our clients."
       },
       "Contact": {
+        "title": "Schedule a Call",
+        "description": "Click the button below to schedule a free consultation with our team. We'll contact you to coordinate the best time.",
+        "buttonText": "Schedule Consultation",
+        "contactInfoTitle": "Contact Info",
+        "addressLabel": "Address",
+        "phoneLabel": "Phone",
+        "emailLabel": "Email",
         "address": "Floridablanca, Colombia",
         "phone": "+57 (301) 308-8500",
         "email": "carloshdelreal@gmail.com",
@@ -256,6 +263,68 @@
           "copyright": "Adelsoft Web Development – All rights reserved",
           "privacy": "Privacy Policy"
         }
+      },
+      "Schedule": {
+        "title": "Do you want to develop software or an application?",
+        "subtitle": "We Develop Your Own **Software** Or **Application** Custom Made In **Just 90 Days** And We **Start It For Only 10%** **Of The Budget**",
+        "ctaText": "👇 Schedule a consultation with our team **for free by completing** the form **below** .👇",
+        "process": {
+          "title": "We do it in 3 simple steps",
+          "steps": [
+            {
+              "number": "1",
+              "title": "Complete the form",
+              "description": "You complete the form at the beginning of this page with your data or by clicking \"I want more information\" so we can contact you."
+            },
+            {
+              "number": "2", 
+              "title": "Our partners get in touch",
+              "description": "Our partner companies get in touch to make your custom quote depending on your needs."
+            },
+            {
+              "number": "3",
+              "title": "Start developing your project", 
+              "description": "They start developing your project with a low investment that will allow you to feel fully confident and accelerate startup times."
+            }
+          ],
+          "ctaText": "I want more information"
+        },
+        "formTitle": "Complete the form to schedule your free consultation",
+        "successStories": {
+          "title": "We have successfully developed +100 software and application projects",
+          "ctaText": "I want more information"
+        },
+        "whyTrust": {
+          "title": "Why trust our team?",
+          "description": "Our team of experts in custom software and application development masters integration across multiple platforms and is ready to help you start your project with just a portion of the budget.\n\nWith +100 successful projects and a wide range of clients in various industries, such as logistics, health, finance, etc. We focus on developing the best solutions.\n\nAll our developments are delivered 100% in the client's name, with a turnkey approach and free support for a full year.",
+          "ctaText": "I want more information"
+        },
+        "faq": {
+          "title": "Frequently asked questions",
+          "questions": [
+            {
+              "question": "How does the consultation work?",
+              "answer": "We will review your project, to give you a clear map of how we can help you carry out your software or app project in record time without losing quality."
+            },
+            {
+              "question": "What results can I expect?",
+              "answer": "Our team guarantees the quality of each and every one of our projects, in addition our agile work methodology ensures that your development starts as quickly as possible."
+            },
+            {
+              "question": "What happens if I wait?",
+              "answer": "Currently, we only have 7 spots left for the consultation, If you wait you'll surely miss out. Take advantage that this week the consultation session is free."
+            },
+            {
+              "question": "Why you?",
+              "answer": "We have +100 successful developments, going through countless industries, working with us is ensuring the success of your project, in addition to being able to start it very quickly."
+            }
+          ],
+          "ctaText": "I want more information"
+        },
+        "footer": {
+          "copyright": "Adelsoft Web Development – All rights reserved",
+          "privacy": "Privacy Policy"
+        }
       }
     },
     "es": {
@@ -348,6 +417,13 @@
         "description": "Conoce al equipo que hace posible Adelsoft Web Development. Somos un equipo de profesionales experimentados que se dedican a proporcionar el mejor servicio posible a nuestros clientes."
       },
       "Contact": {
+        "title": "Agenda una Llamada",
+        "description": "Haz clic en el botón de abajo para agendar una consultoría gratuita con nuestro equipo. Te contactaremos para coordinar la mejor hora.",
+        "buttonText": "Agendar Consultoría",
+        "contactInfoTitle": "Información de Contacto",
+        "addressLabel": "Dirección",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Correo",
         "address": "Floridablanca, Colombia",
         "phone": "+57 (301) 308-8500",
         "email": "carloshdelreal@gmail.com",
@@ -487,6 +563,68 @@
               "answer": "Llevamos +100 desarrollos exitosos, pasando por incontables industrias, trabajar con nosotros es asegurar el éxito de tu proyecto, además de poder iniciarlo muy rápido."
             }
           ]
+        },
+        "footer": {
+          "copyright": "Adelsoft Web Development – Todos los derechos reservados",
+          "privacy": "Políticas de privacidad"
+        }
+      },
+      "Schedule": {
+        "title": "¿Quieres desarrollar un software o una aplicación?",
+        "subtitle": "Desarrollamos Tu Propio **Software** O **Aplicación** A Medida En **Sólo 90 Días** Y Lo **Iniciamos Por Sólo El 10%** **Del Presupuesto**",
+        "ctaText": "👇 Agenda una consultoría con nuestro equipo de forma **gratuita completando** el formulario **debajo** .👇",
+        "process": {
+          "title": "Lo hacemos en 3 simples pasos",
+          "steps": [
+            {
+              "number": "1",
+              "title": "Completas el formulario",
+              "description": "Completas con tus datos el formulario al comienzo de esta página o haciendo clic en \"Quiero más información\" para que podamos contactarte."
+            },
+            {
+              "number": "2", 
+              "title": "Nuestros partners se ponen en contacto",
+              "description": "Nuestras empresas partner se ponen en contacto para realizar tu cotización a medida dependiendo de tus necesidades."
+            },
+            {
+              "number": "3",
+              "title": "Inician a desarrollar tu proyecto", 
+              "description": "Inician a desarrollar tu proyecto con una inversión baja que te permitirá sentirte en plena confianza y acelerar los tiempos de inicio."
+            }
+          ],
+          "ctaText": "Quiero más información"
+        },
+        "formTitle": "Completa el formulario para agendar tu consultoría gratuita",
+        "successStories": {
+          "title": "Desarrollamos +100 proyectos de software y aplicaciones exitosamente",
+          "ctaText": "Quiero más información"
+        },
+        "whyTrust": {
+          "title": "¿Por qué confiar en nuestro equipo?",
+          "description": "Nuestro equipo de expertos en desarrollo de software y aplicaciones a medida domina la integración en múltiples plataformas y está listo para ayudarte a iniciar tu proyecto con solo una parte del presupuesto.\n\nCon +100 proyectos exitosos y una amplia gama de clientes en diversas industrias, como logística, salud, finanzas, etc. Nos enfocamos en desarrollar las mejores soluciones.\n\nTodos nuestros desarrollos son entregados 100% a nombre del cliente, con un enfoque llave en mano y soporte gratuito durante un año completo.",
+          "ctaText": "Quiero más información"
+        },
+        "faq": {
+          "title": "Preguntas frecuentes",
+          "questions": [
+            {
+              "question": "¿Cómo funciona la consultoría?",
+              "answer": "Revisaremos tu proyecto, para darte un mapa claro de cómo podemos ayudarte a realizar tu proyecto de software o app en tiempo récord y sin perder la calidad del mismo."
+            },
+            {
+              "question": "¿Qué resultados puedo esperar?",
+              "answer": "Nuestro equipo garantiza la calidad de todos y cada unos de nuestros proyectos, además nuestra metodología de trabajo ágil logra que tu desarrollo se comience lo mas rápido posible."
+            },
+            {
+              "question": "¿Qué pasa si espero?",
+              "answer": "Actualmente, nos quedan solo 7 cupos para la consultoría, Si esperas seguro te quedas sin cupo. Aprovecha que esta semana la sesión de consultoría es gratuita."
+            },
+            {
+              "question": "¿Por qué ustedes?",
+              "answer": "Llevamos +100 desarrollos exitosos, pasando por incontables industrias, trabajar con nosotros es asegurar el éxito de tu proyecto, además de poder iniciarlo muy rápido."
+            }
+          ],
+          "ctaText": "Quiero más información"
         },
         "footer": {
           "copyright": "Adelsoft Web Development – Todos los derechos reservados",

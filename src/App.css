@@ -519,3 +519,300 @@
     line-height: 1.4;
   }
 }
+
+/* Contact Form Styles */
+.contact-form-container {
+  margin: 30px 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container iframe {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Contact Form */
+@media (max-width: 768px) {
+  .contact-form-container {
+    margin: 20px 0;
+    padding: 15px;
+  }
+  
+  .contact-form-container iframe {
+    height: 400px !important;
+  }
+}
+
+/* Schedule Page Styles */
+.schedule-page {
+  padding: 100px 0;
+  background: #f6f6f6;
+  min-height: 100vh;
+}
+
+.schedule-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #1e7a46;
+  margin-bottom: 30px;
+}
+
+.schedule-subtitle {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.schedule-cta {
+  margin: 40px 0;
+}
+
+.cta-text {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Problems Section */
+.problems-section {
+  margin: 60px 0;
+  padding: 40px 0;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.problems-list {
+  list-style: none;
+  padding: 0;
+}
+
+.problem-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.problem-icon {
+  margin-right: 15px;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+/* Solution Section */
+.solution-section {
+  margin: 60px 0;
+  padding: 40px 0;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.solution-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e7a46;
+  margin-bottom: 30px;
+}
+
+.solution-description {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Process Section */
+.process-section {
+  margin: 60px 0;
+  padding: 40px 0;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.process-step {
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  background: #1e7a46;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto 20px;
+}
+
+.step-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.step-description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Schedule Form Section */
+.schedule-form-section {
+  margin: 60px 0;
+  padding: 40px 0;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.schedule-form-container {
+  margin: 30px 0;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.schedule-form-container iframe {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Success Stories Section */
+.success-stories-section {
+  margin: 60px 0;
+  padding: 40px 0;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.success-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e7a46;
+  margin-bottom: 30px;
+}
+
+/* Why Trust Section */
+.why-trust-section {
+  margin: 60px 0;
+  padding: 40px 0;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.trust-description {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* FAQ Section */
+.faq-section {
+  margin: 60px 0;
+  padding: 40px 0;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.faq-question {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Schedule Footer */
+.schedule-footer {
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+}
+
+/* Responsive Schedule Page */
+@media (max-width: 768px) {
+  .schedule-title {
+    font-size: 36px;
+  }
+  
+  .schedule-subtitle {
+    font-size: 20px;
+  }
+  
+  .solution-title {
+    font-size: 28px;
+  }
+  
+  .success-title {
+    font-size: 28px;
+  }
+  
+  .step-title {
+    font-size: 20px;
+  }
+  
+  .schedule-form-container iframe {
+    height: 400px !important;
+  }
+  
+  .problem-item {
+    font-size: 16px;
+  }
+}
+
+/* Navbar Scroll Visibility */
+.navbar-visible {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Ensure navbar stays on top when visible */
+.navbar-fixed-top.navbar-visible {
+  position: fixed;
+  top: 0;
+  z-index: 1030;
+}
+
+.navbar-fixed-top.navbar-hidden {
+  position: fixed;
+  top: 0;
+  z-index: 1030;
+}

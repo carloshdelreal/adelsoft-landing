@@ -19,7 +19,7 @@ export const Header = ({ data }) => {
                 </h1>
                 <p>{data?.Header?.paragraph || "Loading"}</p>
                 <a
-                  href="#features"
+                  href={`/${language}#features`}
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   {learnMoreText}
