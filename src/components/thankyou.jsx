@@ -2,7 +2,7 @@ import React from "react";
 import { Gallery } from "./gallery";
 import { useLanguage } from "../contexts/LanguageContext";
 
-export const ThankYou = ({ data, landingPageData }) => {
+export const ThankYou = ({ languageData }) => {
   const { language } = useLanguage();
   
   const renderMarkdownText = (text) => {
@@ -12,6 +12,9 @@ export const ThankYou = ({ data, landingPageData }) => {
     );
   };
 
+  // Extract ThankYou data from the language data
+  const data = languageData?.ThankYou || {};
+  
   // Show loading state if data is not available yet
   if (!data || !data.title) {
     return (
@@ -54,7 +57,7 @@ export const ThankYou = ({ data, landingPageData }) => {
           </div>
         )}
 
-        <Gallery data={landingPageData.Gallery} description={landingPageData.GaleryDescription} />
+        <Gallery data={languageData.Gallery} description={languageData.GalleryDescription?.description} />
 
         {/* Achievement Section */}
         <div className="achievement-section text-center">

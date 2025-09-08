@@ -60,11 +60,11 @@ const App = () => {
           
           {/* English routes */}
           <Route exact path="/en" render={() => <HomePage landingPageData={landingPageData} />} />
-          <Route path="/en/thankyou" render={() => <ThankYou data={landingPageData.languages?.en?.ThankYou} landingPageData={landingPageData} />} />
+          <Route path="/en/thankyou" render={() => <ThankYou languageData={landingPageData.languages?.en} />} />
           
           {/* Spanish routes */}
           <Route exact path="/es" render={() => <HomePage landingPageData={landingPageData} />} />
-          <Route path="/es/gracias" render={() => <ThankYou data={landingPageData.languages?.es?.ThankYou} landingPageData={landingPageData} />} />
+          <Route path="/es/gracias" render={() => <ThankYou languageData={landingPageData.languages?.es} />} />
         </Switch>
       </LanguageProvider>
     </Router>
