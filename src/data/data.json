@@ -7,8 +7,8 @@
       "souperbowlCaring": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png",
       "sellerInsight": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png",
       "newselaClassroom": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png",
-      "fiveToNine": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
-      "pinterestTools": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+      "fiveToNine": "https://cdn.sanity.io/images/a2l7d5g3/development/a324b9578d64c2d9b467ae70e35938014f7cb0a1-906x633.png",
+      "pinterestTools": "https://cdn.sanity.io/images/a2l7d5g3/development/bb3b5953df17e3c8d1f6cfadf2f57e9b4e8ce77c-3268x1710.png",
       "optumStore": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
       "carlosProfile": "https://carloshdelreal.com/carlos-profile.jpg",
       "canelaMeffert": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
@@ -157,13 +157,13 @@
         },
         {
           "title": "Pinterest Internal Tools",
-          "largeImage": "@assets.images.fiveToNine",
-          "smallImage": "@assets.images.fiveToNine"
+          "largeImage": "@assets.images.pinterestTools",
+          "smallImage": "@assets.images.pinterestTools"
         },
         {
           "title": "Optum Store",
-          "largeImage": "@assets.images.fiveToNine",
-          "smallImage": "@assets.images.fiveToNine"
+          "largeImage": "@assets.images.optumStore",
+          "smallImage": "@assets.images.optumStore"
         }
       ],
       "Testimonials": [
@@ -393,13 +393,13 @@
         },
         {
           "title": "Pinterest Internal Tools",
-          "largeImage": "@assets.images.fiveToNine",
-          "smallImage": "@assets.images.fiveToNine"
+          "largeImage": "@assets.images.pinterestTools",
+          "smallImage": "@assets.images.pinterestTools"
         },
         {
           "title": "Optum Store",
-          "largeImage": "@assets.images.fiveToNine",
-          "smallImage": "@assets.images.fiveToNine"
+          "largeImage": "@assets.images.optumStore",
+          "smallImage": "@assets.images.optumStore"
         }
       ],
       "Testimonials": [
