@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bdde586.css",
-    "main.js": "/static/js/main.39a407e6.js",
-    "index.html": "/index.html",
-    "main.6bdde586.css.map": "/static/css/main.6bdde586.css.map",
-    "main.39a407e6.js.map": "/static/js/main.39a407e6.js.map"
+    "main.css": "/adelsoft-landing/static/css/main.6bdde586.css",
+    "main.js": "/adelsoft-landing/static/js/main.39a407e6.js",
+    "index.html": "/adelsoft-landing/index.html",
+    "main.6bdde586.css.map": "/adelsoft-landing/static/css/main.6bdde586.css.map",
+    "main.39a407e6.js.map": "/adelsoft-landing/static/js/main.39a407e6.js.map"
   },
   "entrypoints": [
     "static/css/main.6bdde586.css",
