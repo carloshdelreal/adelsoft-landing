@@ -12,6 +12,7 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { ThankYou } from "./components/thankyou";
 import JsonData from "./data/data.json";
+import { processDataWithAssets } from "./utils/assetResolver";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
@@ -43,8 +44,11 @@ const HomePage = ({ landingPageData }) => {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  
   useEffect(() => {
-    setLandingPageData(JsonData);
+    // Process the raw data to resolve asset references
+    const processedData = processDataWithAssets(JsonData);
+    setLandingPageData(processedData);
   }, []);
 
   return (
