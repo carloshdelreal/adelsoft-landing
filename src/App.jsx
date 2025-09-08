@@ -11,6 +11,7 @@ import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { ThankYou } from "./components/thankyou";
+import { Schedule } from "./components/schedule";
 import JsonData from "./data/data.json";
 import { processDataWithAssets } from "./utils/assetResolver";
 import SmoothScroll from "smooth-scroll";
@@ -61,10 +62,12 @@ const App = () => {
           {/* English routes */}
           <Route exact path="/en" render={() => <HomePage landingPageData={landingPageData} />} />
           <Route path="/en/thankyou" render={() => <ThankYou languageData={landingPageData.languages?.en} />} />
+          <Route path="/en/schedule" render={() => <Schedule languageData={landingPageData.languages?.en} />} />
           
           {/* Spanish routes */}
           <Route exact path="/es" render={() => <HomePage landingPageData={landingPageData} />} />
           <Route path="/es/gracias" render={() => <ThankYou languageData={landingPageData.languages?.es} />} />
+          <Route path="/es/agendar" render={() => <Schedule languageData={landingPageData.languages?.es} />} />
         </Switch>
       </LanguageProvider>
     </Router>
