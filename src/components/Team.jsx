@@ -6,8 +6,6 @@ export const Team = ({ data, description }) => {
   
   const meetTheTeamText = language === 'es' ? 'Conoce al Equipo' : 'Meet the Team';
 
-  console.log(data);
-
   return (
     <div id="team" className="text-center">
       <div className="container">
