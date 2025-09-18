@@ -49,24 +49,21 @@ export const ScheduleForm = ({ languageData }) => {
             <div className="col-md-12">
               <div className="schedule-form-container">
                 <h3 className="form-title">{data.formTitle || "Completa el formulario para agendar tu consultoría"}</h3>
-                <iframe
-                  src="https://api.leadconnectorhq.com/widget/form/J7iQcFS5eB2DNGXYG8Ra"
-                  style={{width: '100%', height: '500px', border: 'none', borderRadius: '3px'}}
-                  id="inline-J7iQcFS5eB2DNGXYG8Ra" 
-                  data-layout="{'id':'INLINE'}"
-                  data-trigger-type="alwaysShow"
-                  data-trigger-value=""
-                  data-activation-type="alwaysActivated"
-                  data-activation-value=""
-                  data-deactivation-type="neverDeactivate"
-                  data-deactivation-value=""
-                  data-form-name="Formulario prospect"
-                  data-height="undefined"
-                  data-layout-iframe-id="inline-J7iQcFS5eB2DNGXYG8Ra"
-                  data-form-id="J7iQcFS5eB2DNGXYG8Ra"
-                  title="Formulario prospect"
-                >
-                </iframe>
+                <iframe 
+                  src="https://api.leadconnectorhq.com/widget/booking/6C3Y0Zb0uL02cO9U7Rp6" 
+                  style={{
+                    width: '100%',
+                    height: '600px',
+                    border: 'none',
+                    overflow: 'hidden',
+                    borderRadius: '8px',
+                    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                    minHeight: '500px'
+                  }} 
+                  scrolling="no" 
+                  id="6C3Y0Zb0uL02cO9U7Rp6_1758204479788"
+                  title="Booking Widget"
+                />
                 <script src="https://link.msgsndr.com/js/form_embed.js"></script>
               </div>
             </div>
