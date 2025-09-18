@@ -1,32 +1,16 @@
-import React, { useState, useEffect } from "react";
-import { Gallery } from "./gallery";
-import { Navigation } from "./navigation";
+import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
+import { Faq } from "./sections/Faq";
 
-export const ThankYou = ({ languageData, landingPageData }) => {
+export const ThankYou = ({ data }) => {
   const { language } = useLanguage();
-  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
-  
-  // Handle scroll to show/hide navbar
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setIsNavbarVisible(scrollTop < 50); // Show navbar when within 50px of top
-    };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-  
   const renderMarkdownText = (text) => {
     if (!text) return "";
     return text.split('**').map((part, index) => 
       index % 2 === 1 ? <strong key={index}>{part}</strong> : part
     );
   };
-
-  // Extract ThankYou data from the language data
-  const data = languageData?.ThankYou || {};
   
   // Show loading state if data is not available yet
   if (!data || !data.title) {
@@ -44,12 +28,11 @@ export const ThankYou = ({ languageData, landingPageData }) => {
 
   return (
     <div className="thank-you-page">
-      <Navigation data={landingPageData} className={isNavbarVisible ? 'navbar-visible' : 'navbar-hidden'} />
       <div className="container">
         {/* Success Message */}
         <div className="section-title text-center">
           <h1 className="success-title">{data.title}</h1>
-          <p className="success-subtitle">{renderMarkdownText(data.subtitle)}</p>
+          <h3 className="success-subtitle">{renderMarkdownText(data.subtitle)}</h3>
         </div>
 
         {/* Target Audience Section */}
@@ -61,7 +44,7 @@ export const ThankYou = ({ languageData, landingPageData }) => {
                 <ul className="audience-list">
                   {data.targetAudience.items && data.targetAudience.items.map((item, index) => (
                     <li key={index} className="audience-item">
-                      <span className="bullet">🟣</span>
+                      <span className="bullet">⚪</span>
                       {item}
                     </li>
                   ))}
@@ -71,8 +54,6 @@ export const ThankYou = ({ languageData, landingPageData }) => {
           </div>
         )}
 
-        <Gallery data={languageData.Gallery} description={languageData.GalleryDescription?.description} />
-
         {/* Achievement Section */}
         <div className="achievement-section text-center">
           <h3 className="achievement-text">{data.achievement || "Desarrollamos proyectos de software exitosamente"}</h3>
@@ -80,38 +61,6 @@ export const ThankYou = ({ languageData, landingPageData }) => {
             {data.ctaText || "Quiero más información"}
           </a>
         </div>
-
-        {/* FAQ Section */}
-        {data.faq && (
-          <div className="faq-section">
-            <h2 className="text-center">{data.faq.title}</h2>
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2">
-                {data.faq.questions && data.faq.questions.map((faq, index) => (
-                  <div key={index} className="faq-item">
-                    <h4 className="faq-question">{faq.question}</h4>
-                    <p className="faq-answer">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="text-center">
-              <a href={`/${language}/#contact`} className="btn-custom btn-lg">
-                {data.ctaText || "Quiero más información"}
-              </a>
-            </div>
-          </div>
-        )}
-
-        {/* Footer */}
-        {data.footer && (
-          <div className="thank-you-footer text-center">
-            <p className="copyright">{data.footer.copyright}</p>
-            <p className="privacy-link">
-              <a href="#privacy">{data.footer.privacy}</a>
-            </p>
-          </div>
-        )}
       </div>
     </div>
   );
