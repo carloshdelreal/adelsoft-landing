@@ -1,3 +1,57 @@
+/* Booking Widget Styles */
+.booking-widget-container {
+  transition: all 0.3s ease;
+}
+
+.booking-widget-container h2 {
+  transition: font-size 0.3s ease;
+}
+
+.booking-widget-container p {
+  transition: font-size 0.3s ease;
+}
+
+/* Mobile responsiveness for booking widget */
+@media (max-width: 768px) {
+  .booking-widget-container {
+    padding: 15px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .booking-widget-container h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  .booking-widget-container p {
+    font-size: 1rem !important;
+  }
+  
+  .booking-widget-container iframe {
+    height: 500px !important;
+    min-height: 400px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-widget-container {
+    padding: 10px !important;
+  }
+  
+  .booking-widget-container h2 {
+    font-size: 1.3rem !important;
+  }
+  
+  .booking-widget-container p {
+    font-size: 0.9rem !important;
+  }
+  
+  .booking-widget-container iframe {
+    height: 450px !important;
+    min-height: 350px !important;
+  }
+}
+
 /* Services Section Styles */
 #services .row {
   display: flex;
@@ -168,7 +222,7 @@
 
 /* Thank You Page Styles */
 .thank-you-page {
-  padding: 100px 0;
+  padding: 0 0 100px 0;
   background: #f6f6f6;
   min-height: 100vh;
 }
@@ -182,7 +236,7 @@
 }
 
 .success-subtitle {
-  font-size: 20px;
+  font-size: 28px;
   line-height: 1.6;
   color: #555;
   margin-bottom: 50px;
@@ -815,4 +869,12 @@
   position: fixed;
   top: 0;
   z-index: 1030;
+}
+
+/* Make navbar sticky at current position */
+.navbar-fixed-top {
+  position: sticky !important;
+  top: 0;
+  z-index: 1030;
+  width: 100%;
 }

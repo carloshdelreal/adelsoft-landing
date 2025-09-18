@@ -1,7 +1,7 @@
 import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 
-export const Header = ({ data }) => {
+export const HeaderSchedule = ({ data }) => {
   const { language } = useLanguage();
   
   const learnMoreText = language === 'es' ? 'Saber Más' : 'Learn More';

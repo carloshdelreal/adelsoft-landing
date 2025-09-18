@@ -1,21 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Navigation } from "./navigation";
+import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 
-export const Schedule = ({ languageData, landingPageData }) => {
+export const ScheduleForm = ({ languageData }) => {
   const { language } = useLanguage();
-  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
-  
-  // Handle scroll to show/hide navbar
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setIsNavbarVisible(scrollTop < 50); // Show navbar when within 50px of top
-    };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
   
   const renderMarkdownText = (text) => {
     if (!text) return "";
@@ -43,41 +31,17 @@ export const Schedule = ({ languageData, landingPageData }) => {
 
   return (
     <div className="schedule-page">
-      <Navigation data={landingPageData} className={isNavbarVisible ? 'navbar-visible' : 'navbar-hidden'} />
       <div className="container">
         {/* Hero Section */}
         <div className="section-title text-center">
-          <h1 className="schedule-title">{data.title}</h1>
-          <p className="schedule-subtitle">{renderMarkdownText(data.subtitle)}</p>
+          <h3 className="cta-text">{data.title}</h3>
+          <h3 className="schedule-title">{renderMarkdownText(data.subtitle)}</h3>
         </div>
 
         {/* Main CTA */}
         <div className="schedule-cta text-center">
-          <p className="cta-text">{data.ctaText}</p>
+          <h1 className="schedule-cta-text">{data.ctaText}</h1>
         </div>
-
-        {/* Process Section */}
-        {data.process && (
-          <div className="process-section">
-            <h2 className="text-center">{data.process.title}</h2>
-            <div className="row">
-              {data.process.steps && data.process.steps.map((step, index) => (
-                <div key={index} className="col-md-4">
-                  <div className="process-step">
-                    <div className="step-number">{step.number}</div>
-                    <h3 className="step-title">{step.title}</h3>
-                    <p className="step-description">{step.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="text-center">
-              <a href={`/${language}/#contact`} className="btn-custom btn-lg">
-                {data.process.ctaText || "Quiero más información"}
-              </a>
-            </div>
-          </div>
-        )}
 
         {/* Contact Form */}
         <div className="schedule-form-section">
@@ -133,38 +97,6 @@ export const Schedule = ({ languageData, landingPageData }) => {
                 {data.whyTrust.ctaText || "Quiero más información"}
               </a>
             </div>
-          </div>
-        )}
-
-        {/* FAQ Section */}
-        {data.faq && (
-          <div className="faq-section">
-            <h2 className="text-center">{data.faq.title}</h2>
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2">
-                {data.faq.questions && data.faq.questions.map((faq, index) => (
-                  <div key={index} className="faq-item">
-                    <h4 className="faq-question">{faq.question}</h4>
-                    <p className="faq-answer">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="text-center">
-              <a href={`/${language}/#contact`} className="btn-custom btn-lg">
-                {data.faq.ctaText || "Quiero más información"}
-              </a>
-            </div>
-          </div>
-        )}
-
-        {/* Footer */}
-        {data.footer && (
-          <div className="schedule-footer text-center">
-            <p className="copyright">{data.footer.copyright}</p>
-            <p className="privacy-link">
-              <a href="#privacy">{data.footer.privacy}</a>
-            </p>
           </div>
         )}
       </div>

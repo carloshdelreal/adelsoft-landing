@@ -1,6 +1,6 @@
-import { Image } from "./image";
+import { Image } from "../image";
 import React from "react";
-import { useLanguage } from "../contexts/LanguageContext";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 export const Gallery = ({ data, description }) => {
   const { language } = useLanguage();
@@ -8,7 +8,7 @@ export const Gallery = ({ data, description }) => {
   const galleryText = language === 'es' ? 'Galería' : 'Gallery';
 
   return (
-    <div id="portfolio" className="text-center">
+    <div className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>{galleryText}</h2>
