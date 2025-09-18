@@ -1,6 +1,5 @@
 import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
-import { Faq } from "./sections/Faq";
 
 export const ThankYou = ({ data }) => {
   const { language } = useLanguage();

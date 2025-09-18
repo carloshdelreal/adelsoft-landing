@@ -1,7 +1,7 @@
 import { useLanguage } from "../contexts/LanguageContext";
 // import { Header } from "../components/header";
 import { Features } from "../components/sections/Features";
-import { About } from "../components/about";
+import { About } from "../components/sections/About";
 import { Services } from "../components/sections/Services";
 import { Gallery } from "../components/sections/Gallery";
 import { Testimonials } from "../components/sections/Testimonials";
