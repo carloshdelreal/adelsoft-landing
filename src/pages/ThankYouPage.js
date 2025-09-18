@@ -1,12 +1,12 @@
 import { useLanguage } from "../contexts/LanguageContext";
 // import { Header } from "../components/header";
-import { Features } from "../components/features";
+import { Features } from "../components/sections/Features";
 import { About } from "../components/about";
-import { Services } from "../components/services";
-import { Gallery } from "../components/gallery";
-import { Testimonials } from "../components/testimonials";
-import { Team } from "../components/Team";
-import { Contact } from "../components/contact";
+import { Services } from "../components/sections/Services";
+import { Gallery } from "../components/sections/Gallery";
+import { Testimonials } from "../components/sections/Testimonials";
+import { Team } from "../components/sections/Team";
+import { Contact } from "../components/sections/Contact";
 import { ThankYou } from "../components/thankyou";
 import { Faq } from "../components/sections/Faq";
 

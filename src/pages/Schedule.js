@@ -1,13 +1,12 @@
 import { useLanguage } from "../contexts/LanguageContext";
 //import { HeaderSchedule } from "../components/headerSchedule";
 import { ScheduleWidget } from "../components/ScheduleWidget";
-//import { Features } from "../components/features";
-import { About } from "../components/about";
-import { Services } from "../components/services";
-import { Gallery } from "../components/gallery";
-import { Testimonials } from "../components/testimonials";
-import { Team } from "../components/Team";
-import { Contact } from "../components/contact";
+import { About } from "../components/sections/About";
+import { Services } from "../components/sections/Services";
+import { Gallery } from "../components/sections/Gallery";
+import { Testimonials } from "../components/sections/Testimonials";
+import { Team } from "../components/sections/Team";
+import { Contact } from "../components/sections/Contact";
 
 export const Schedule = ({ landingPageData }) => {
   const { language } = useLanguage();

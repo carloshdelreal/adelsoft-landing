@@ -1,15 +1,15 @@
 import { useLanguage } from "../contexts/LanguageContext";
-import { Header } from "../components/header";
-import { Features } from "../components/features";
-import { About } from "../components/about";
-import { Services } from "../components/services";
-import { Gallery } from "../components/gallery";
-import { Testimonials } from "../components/testimonials";
-import { Team } from "../components/Team";
-import { Contact } from "../components/contact";
+import { Header } from "../components/sections/Header";
+import { Features } from "../components/sections/Features";
+import { About } from "../components/sections/About";
+import { Services } from "../components/sections/Services";
+import { Gallery } from "../components/sections/Gallery";
+import { Testimonials } from "../components/sections/Testimonials";
+import { Team } from "../components/sections/Team";
+import { Contact } from "../components/sections/Contact";
 import { ScheduleForm } from "../components/ScheduleForm";
 import { Faq } from "../components/sections/Faq";
-import { Navigation } from "../components/navigation";
+import { Navigation } from "../components/sections/Navigation";
 
 export const HomePage = ({ landingPageData }) => {
   const { language } = useLanguage();
