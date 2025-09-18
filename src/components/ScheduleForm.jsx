@@ -1,21 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Navigation } from "./navigation";
+import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 
-export const Schedule = ({ languageData, landingPageData }) => {
+export const ScheduleForm = ({ languageData }) => {
   const { language } = useLanguage();
-  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
-  
-  // Handle scroll to show/hide navbar
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setIsNavbarVisible(scrollTop < 50); // Show navbar when within 50px of top
-    };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
   
   const renderMarkdownText = (text) => {
     if (!text) return "";

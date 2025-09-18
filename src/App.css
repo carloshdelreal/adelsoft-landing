@@ -870,3 +870,11 @@
   top: 0;
   z-index: 1030;
 }
+
+/* Make navbar sticky at current position */
+.navbar-fixed-top {
+  position: sticky !important;
+  top: 0;
+  z-index: 1030;
+  width: 100%;
+}

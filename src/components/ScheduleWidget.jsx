@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-export const BookingWidget = () => {
+export const ScheduleWidget = () => {
   useEffect(() => {
     // Load the external script for the booking widget
     const script = document.createElement('script');

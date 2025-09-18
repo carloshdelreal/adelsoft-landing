@@ -7,7 +7,7 @@ import { Gallery } from "../components/gallery";
 import { Testimonials } from "../components/testimonials";
 import { Team } from "../components/Team";
 import { Contact } from "../components/contact";
-import { Schedule } from "../components/schedule";
+import { ScheduleForm } from "../components/ScheduleForm";
 import { Faq } from "../components/sections/Faq";
 import { Navigation } from "../components/navigation";
 
@@ -19,7 +19,7 @@ export const HomePage = ({ landingPageData }) => {
 
   return (
     <div>
-      <Schedule languageData={languageData} landingPageData={landingPageData} />
+      <ScheduleForm languageData={languageData} />
       <Faq data={languageData} />
       <Navigation data={landingPageData} />
       <Header data={languageData} />

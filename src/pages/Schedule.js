@@ -1,6 +1,6 @@
 import { useLanguage } from "../contexts/LanguageContext";
 //import { HeaderSchedule } from "../components/headerSchedule";
-import { BookingWidget } from "../components/BookingWidget";
+import { ScheduleWidget } from "../components/ScheduleWidget";
 //import { Features } from "../components/features";
 import { About } from "../components/about";
 import { Services } from "../components/services";
@@ -17,7 +17,7 @@ export const Schedule = ({ landingPageData }) => {
 
   return (
     <div>
-      <BookingWidget />
+      <ScheduleWidget />
       {/* <HeaderSchedule data={languageData} /> */}
       {/* <Features data={languageData} /> */}
       <About data={languageData} />
