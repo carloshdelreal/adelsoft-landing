@@ -9,7 +9,7 @@ import { Team } from "../components/sections/Team";
 import { Contact } from "../components/sections/Contact";
 import { ScheduleForm } from "../components/ScheduleForm";
 import { Faq } from "../components/sections/Faq";
-import { Navigation } from "../components/Navigation";
+import { Navigation } from "../components/navigation";
 
 export const HomePage = ({ landingPageData }) => {
   const { language } = useLanguage();
