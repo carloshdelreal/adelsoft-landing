@@ -492,11 +492,6 @@
           "img": "@assets.images.eduardoDiaz",
           "text": "\"El trabajo de Carlos en nuestra plataforma de comercio electrónico mejoró significativamente nuestras tasas de conversión. Su comprensión de las tecnologías frontend y backend es notable.\"",
           "name": "Eduardo Diaz"
-        },
-        {
-          "img": "@assets.images.yuriPauluci",
-          "text": "\"Las optimizaciones de rendimiento que Carlos implementó en nuestra aplicación han marcado una diferencia dramática. Sus habilidades técnicas y atención al detalle son excepcionales.\"",
-          "name": "Yuri Pauluci"
         }
       ],
       "Team": [
@@ -509,11 +504,6 @@
           "img": "@assets.images.adonysMedina",
           "name": "Adonys Medina",
           "job": "Ingeniero Backend"
-        },
-        {
-          "img": "@assets.images.yuriPauluci",
-          "name": "Yuri Pauluci",
-          "job": "Diseñador UX/UI"
         },
         {
           "img": "@assets.images.canelaMeffert",
