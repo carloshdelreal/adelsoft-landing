@@ -14,7 +14,6 @@
       "canelaMeffert": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
       "davidAuza": "https://cdn.sanity.io/images/a2l7d5g3/development/2dfb63ec5287fda9481adb3dab013e781f4f8554-512x512.jpg",
       "adonysMedina": "https://cdn.sanity.io/images/a2l7d5g3/development/81e2d5cf3b553ca481b6cc85069a1bcbdc1ceace-607x607.jpg",
-      "yuriPauluci": "https://cdn.sanity.io/images/a2l7d5g3/development/535726f768c88f874cf9b05e24efd8c88e0663cb-800x800.jpg",
       "maxStuart": "https://cdn.sanity.io/images/a2l7d5g3/development/756facf2b3c84024f378770fe71f9ee21d79257e-512x512.png",
       "julianMedina": "https://cdn.sanity.io/images/a2l7d5g3/development/1f553b0fa930535908e0d1a5cec1ecf721459f77-800x800.jpg",
       "eduardoDiaz": "https://cdn.sanity.io/images/a2l7d5g3/development/352f03fa68e85066b6d48d072cd5260ff964e4f4-800x800.jpg",
@@ -198,11 +197,6 @@
           "img": "@assets.images.eduardoDiaz",
           "text": "\"Carlos's work on our e-commerce platform has significantly improved our conversion rates. His understanding of both frontend and backend technologies is remarkable.\"",
           "name": "Eduardo Diaz"
-        },
-        {
-          "img": "@assets.images.yuriPauluci",
-          "text": "\"The performance optimizations Carlos implemented in our application have made a dramatic difference. His technical skills and attention to detail are exceptional.\"",
-          "name": "Yuri Pauluci"
         }
       ],
       "Team": [
@@ -215,11 +209,6 @@
           "img": "@assets.images.adonysMedina",
           "name": "Adonys Medina",
           "job": "Backend Engineer"
-        },
-        {
-          "img": "@assets.images.yuriPauluci",
-          "name": "Yuri Pauluci",
-          "job": "UX/UI Designer"
         },
         {
           "img": "@assets.images.canelaMeffert",
@@ -503,11 +492,6 @@
           "img": "@assets.images.eduardoDiaz",
           "text": "\"El trabajo de Carlos en nuestra plataforma de comercio electrónico mejoró significativamente nuestras tasas de conversión. Su comprensión de las tecnologías frontend y backend es notable.\"",
           "name": "Eduardo Diaz"
-        },
-        {
-          "img": "@assets.images.yuriPauluci",
-          "text": "\"Las optimizaciones de rendimiento que Carlos implementó en nuestra aplicación han marcado una diferencia dramática. Sus habilidades técnicas y atención al detalle son excepcionales.\"",
-          "name": "Yuri Pauluci"
         }
       ],
       "Team": [
@@ -520,11 +504,6 @@
           "img": "@assets.images.adonysMedina",
           "name": "Adonys Medina",
           "job": "Ingeniero Backend"
-        },
-        {
-          "img": "@assets.images.yuriPauluci",
-          "name": "Yuri Pauluci",
-          "job": "Diseñador UX/UI"
         },
         {
           "img": "@assets.images.canelaMeffert",
