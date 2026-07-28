@@ -887,6 +887,48 @@
   transition: box-shadow var(--transition-base);
 }
 
+/* Brand mark in navbar */
+#menu a.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 1;
+}
+
+#menu a.navbar-brand .navbar-logo {
+  display: block;
+  width: 36px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+#menu a.navbar-brand .navbar-brand-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #333;
+}
+
+#menu a.navbar-brand:hover .navbar-brand-text,
+#menu a.navbar-brand:focus .navbar-brand-text {
+  color: var(--brand-link);
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-brand img {
+  width: 22px;
+  height: auto;
+}
+
 /* 404 page — reuses hero intro treatment */
 .not-found-page {
   min-height: 100vh;

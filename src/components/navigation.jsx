@@ -37,7 +37,14 @@ export const Navigation = ({ data, className }) => {
             <span className="icon-bar"></span>
           </button>
           <a className="navbar-brand page-scroll" href={`/${language}/#page-top`}>
-            Adelsoft
+            <img
+              src="/img/logo.svg"
+              alt="Adelsoft"
+              className="navbar-logo"
+              width="36"
+              height="31"
+            />
+            <span className="navbar-brand-text">Adelsoft</span>
           </a>
         </div>
 
