@@ -19,4 +19,6 @@ jobs:
       run: npm install
 
     - name: Build
+      env:
+        NEXT_PUBLIC_GTM_ID: G-J0N1JL8YR4
       run: npm run build

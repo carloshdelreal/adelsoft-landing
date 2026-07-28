@@ -45,6 +45,8 @@ export const metadata = {
   },
 };
 
+const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -72,16 +74,20 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body id="page-top">
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-J0N1JL8YR4"
-          strategy="afterInteractive"
-        />
-        <Script id="ga4" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
+        {gtmId ? (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gtmId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="gtm" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-J0N1JL8YR4');`}
-        </Script>
+gtag('config', '${gtmId}');`}
+            </Script>
+          </>
+        ) : null}
         <Providers>{children}</Providers>
       </body>
     </html>
