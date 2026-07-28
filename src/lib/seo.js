@@ -1,5 +1,5 @@
 const SITE_URL = "https://adelsoft.co";
-const OG_IMAGE = `${SITE_URL}/img/intro-bg.jpg`;
+const OG_IMAGE = `${SITE_URL}/img/og.jpg`;
 
 const metaByPage = {
   home: {
@@ -77,6 +77,8 @@ export function buildMetadata(page, lang) {
       images: [
         {
           url: OG_IMAGE,
+          secureUrl: OG_IMAGE,
+          type: "image/jpeg",
           width: 1200,
           height: 630,
           alt: "Adelsoft Web Development",

@@ -9,7 +9,31 @@ export const metadata = {
     default: "Adelsoft Web Development",
     template: "%s",
   },
-  description: "Adelsoft Web Development — modern web apps and consultancy.",
+  description:
+    "Web development services. We build the apps your customers will love and your competition will hate.",
+  openGraph: {
+    type: "website",
+    siteName: "Adelsoft",
+    title: "Adelsoft Web Development",
+    description:
+      "Web development services. We build the apps your customers will love and your competition will hate.",
+    url: "https://adelsoft.co/en/",
+    images: [
+      {
+        url: "https://adelsoft.co/img/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Adelsoft Web Development",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Adelsoft Web Development",
+    description:
+      "Web development services. We build the apps your customers will love and your competition will hate.",
+    images: ["https://adelsoft.co/img/og.jpg"],
+  },
 };
 
 export default function RootLayout({ children }) {

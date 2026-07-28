@@ -1,20 +1,22 @@
-"use client";
+import { buildMetadata } from "@/lib/seo";
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+export const metadata = {
+  ...buildMetadata("home", "en"),
+  alternates: {
+    ...buildMetadata("home", "en").alternates,
+    canonical: "https://adelsoft.co/en/",
+  },
+};
 
 export default function RootPage() {
-  const router = useRouter();
-
-  useEffect(() => {
-    router.replace("/en/");
-  }, [router]);
-
   return (
-    <main style={{ padding: "2rem", textAlign: "center" }}>
-      <p>
-        <a href="/en/">Continue to Adelsoft</a>
-      </p>
-    </main>
+    <>
+      <meta httpEquiv="refresh" content="0;url=/en/" />
+      <main style={{ padding: "2rem", textAlign: "center" }}>
+        <p>
+          <a href="/en/">Continue to Adelsoft</a>
+        </p>
+      </main>
+    </>
   );
 }
