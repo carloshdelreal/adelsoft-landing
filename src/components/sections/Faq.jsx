@@ -4,9 +4,8 @@ import { useLanguage } from '../../contexts/LanguageContext';
 export const Faq = ({ data }) => {
   const { language } = useLanguage();
 
-  console.log(data);
-  if (!data || !data?.ThankYou?.faq?.title || !data?.ThankYou?.faq?.questions || !data?.ThankYou?.ctaText) {
-    return "empty faq";
+  if (!data?.ThankYou?.faq?.title || !data?.ThankYou?.faq?.questions || !data?.ThankYou?.ctaText) {
+    return null;
   }
 
   return (
@@ -24,7 +23,7 @@ export const Faq = ({ data }) => {
       </div>
       <div className="text-center">
         <a href={`/${language}/#contact`} className="btn-custom btn-lg">
-          {data?.ThankYou?.ctaText}
+          {data.ThankYou.ctaText}
         </a>
       </div>
     </div>

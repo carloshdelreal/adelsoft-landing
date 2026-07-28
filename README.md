@@ -1,63 +1,51 @@
 # Adelsoft Landing Page
 
-This is a React-based landing page for Adelsoft. The project uses modern web technologies and provides a smooth user experience.
+Bilingual (EN/ES) marketing site for Adelsoft Web Development, built with React + Vite and deployed to GitHub Pages.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
-- Node.js (v14 or higher)
-- npm (v6 or higher)
+- Node.js 20+
+- npm 9+
 
 ## Getting Started
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/adelsoft-landing.git
-cd adelsoft-landing
-```
-
-2. Install dependencies:
 ```bash
 npm install
-```
-
-3. Start the development server:
-```bash
 npm start
 ```
-This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Available Scripts
+Open [http://localhost:3000](http://localhost:3000).
 
-In the project directory, you can run:
+## Scripts
 
-- `npm start` - Runs the app in development mode
-- `npm test` - Launches the test runner in interactive watch mode
-- `npm run build` - Builds the app for production to the `build` folder
-- `npm run eject` - Ejects from create-react-app (one-way operation)
-
-## Building for Production
-
-To create a production build, run:
-```bash
-npm run build
-```
-This builds the app for production to the `build` folder, optimizing the build for the best performance.
+- `npm start` / `npm run dev` — Vite development server
+- `npm run build` — production build to `dist/`
+- `npm run preview` — preview the production build
+- `npm run deploy` — build and publish `dist/` to GitHub Pages
 
 ## Project Structure
 
-- `/src` - Contains the source code
-- `/public` - Contains static files
-- `/build` - Contains the production build (generated after running `npm run build`)
+- `/src` — React app (pages, sections, i18n data)
+- `/public` — static CSS, fonts, images, `404.html` (SPA fallback)
+- `/dist` — production build output
 
-## Dependencies
+## Routes
 
-- React 17.0.1
-- React DOM 17.0.1
-- EmailJS for contact form functionality
-- Smooth Scroll for enhanced navigation
-- Testing libraries (Jest, React Testing Library)
+| English | Spanish |
+|---------|---------|
+| `/en` | `/es` |
+| `/en/schedule` | `/es/agendar` |
+| `/en/thankyou` | `/es/gracias` |
+
+## Stack
+
+- React 18
+- Vite 5
+- React Router 6
+- react-helmet-async
+- Smooth Scroll
+- Bootstrap 3 CSS (legacy grid/styles)
 
 ## License
 
-This project is licensed under the terms of the LICENSE file in the root directory.
+See the LICENSE file in the repository root.

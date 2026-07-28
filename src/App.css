@@ -1,6 +1,29 @@
+/* Brand tokens mirrored for App-level overrides */
+:root {
+  --brand-blue: #5ca9fb;
+  --brand-indigo: #6372ff;
+  --brand-link: #608dfd;
+  --brand-success: #1e7a46;
+  --brand-text: #333;
+  --brand-muted: #777;
+  --brand-bg-soft: #f6f6f6;
+  --radius-md: 8px;
+  --transition-base: 0.3s ease;
+}
+
+.booking-iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 500px;
+}
+
 /* Booking Widget Styles */
 .booking-widget-container {
-  transition: all 0.3s ease;
+  transition: all var(--transition-base);
 }
 
 .booking-widget-container h2 {
@@ -222,8 +245,8 @@
 
 /* Thank You Page Styles */
 .thank-you-page {
-  padding: 0 0 100px 0;
-  background: #f6f6f6;
+  padding: 100px 0;
+  background: var(--brand-bg-soft);
   min-height: 100vh;
 }
 
@@ -531,19 +554,16 @@
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
-    width: 111%;
+    width: 100%;
   }
   #about,
   #services,
   #testimonials,
   #team,
   #contact,
-  #footer {
-    width: 100%;
-  }
-
+  #footer,
   #portfolio {
-    width: 110%;
+    width: 100%;
   }
   
   #services .col-md-4 {
@@ -603,7 +623,7 @@
 /* Schedule Page Styles */
 .schedule-page {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: var(--brand-bg-soft);
   min-height: 100vh;
 }
 
@@ -745,8 +765,9 @@
   margin-bottom: 30px;
 }
 
-.schedule-form-container iframe {
-  border-radius: 8px;
+.schedule-form-container iframe,
+.schedule-form-container .booking-iframe {
+  border-radius: var(--radius-md);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -761,7 +782,7 @@
 .success-title {
   font-size: 36px;
   font-weight: 700;
-  color: #1e7a46;
+  color: var(--brand-success);
   margin-bottom: 30px;
 }
 
@@ -838,8 +859,10 @@
     font-size: 20px;
   }
   
-  .schedule-form-container iframe {
+  .schedule-form-container iframe,
+  .booking-iframe {
     height: 400px !important;
+    min-height: 400px;
   }
   
   .problem-item {
@@ -847,34 +870,10 @@
   }
 }
 
-/* Navbar Scroll Visibility */
-.navbar-visible {
-  transform: translateY(0);
-  transition: transform 0.3s ease-in-out;
-}
-
-.navbar-hidden {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease-in-out;
-}
-
-/* Ensure navbar stays on top when visible */
-.navbar-fixed-top.navbar-visible {
-  position: fixed;
-  top: 0;
-  z-index: 1030;
-}
-
-.navbar-fixed-top.navbar-hidden {
-  position: fixed;
-  top: 0;
-  z-index: 1030;
-}
-
-/* Make navbar sticky at current position */
 .navbar-fixed-top {
-  position: sticky !important;
+  position: fixed;
   top: 0;
   z-index: 1030;
   width: 100%;
+  transition: box-shadow var(--transition-base);
 }

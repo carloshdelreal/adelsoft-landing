@@ -7,28 +7,30 @@ import { Gallery } from "../components/sections/Gallery";
 import { Testimonials } from "../components/sections/Testimonials";
 import { Team } from "../components/sections/Team";
 import { Contact } from "../components/sections/Contact";
-import { ScheduleForm } from "../components/ScheduleForm";
-import { Faq } from "../components/sections/Faq";
 import { Navigation } from "../components/navigation";
+import { PageMeta } from "../components/PageMeta";
 
 export const HomePage = ({ landingPageData }) => {
   const { language } = useLanguage();
-  
-  // Get the selected language data object - this now contains ALL the data
   const languageData = landingPageData?.languages?.[language] || {};
 
   return (
     <div>
-      <ScheduleForm languageData={languageData} />
-      <Faq data={languageData} />
+      <PageMeta page="home" />
       <Navigation data={landingPageData} />
       <Header data={languageData} />
       <Features data={languageData} />
       <About data={languageData} />
       <Services data={languageData} />
-      <Gallery data={languageData.Gallery} description={languageData.Gallery?.description} />
+      <Gallery
+        data={languageData.Gallery}
+        description={languageData.GalleryDescription?.description}
+      />
       <Testimonials data={languageData.Testimonials} />
-      <Team data={languageData.Team} description={languageData.Team?.description} />
+      <Team
+        data={languageData.Team}
+        description={languageData.TeamDescription?.description}
+      />
       <Contact data={languageData} />
     </div>
   );
