@@ -4,22 +4,25 @@ const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
 const metaByPage = {
   home: {
     en: {
-      title: "Adelsoft | Custom Software Development",
+      title: "Adelsoft | Custom Software Development for Businesses",
       description:
-        "Custom software development, web applications, GIS solutions and AI-powered automation for businesses.",
+        "Custom software development, web applications, cloud solutions and AI-powered systems for growing businesses.",
       path: "/en/",
       altPath: "/es/",
       ogDescription:
-        "Helping businesses grow through custom software, AI automation and GIS solutions.",
+        "Custom software development, web applications, cloud solutions and AI-powered systems for growing businesses.",
+      twitterDescription: "Custom software solutions for modern businesses.",
     },
     es: {
-      title: "Adelsoft | Desarrollo de Software a Medida",
+      title: "Adelsoft | Desarrollo de Software a Medida para Empresas",
       description:
-        "Desarrollo de software a medida, aplicaciones web, soluciones GIS y automatización con IA para empresas.",
+        "Desarrollo de software a medida, aplicaciones web, soluciones cloud y sistemas con IA para empresas en crecimiento.",
       path: "/es/",
       altPath: "/en/",
       ogDescription:
-        "Ayudamos a empresas a crecer con software a medida, automatización con IA y soluciones GIS.",
+        "Desarrollo de software a medida, aplicaciones web, soluciones cloud y sistemas con IA para empresas en crecimiento.",
+      twitterDescription:
+        "Soluciones de software a medida para empresas modernas.",
     },
   },
   schedule: {
@@ -67,7 +70,7 @@ function ogImage() {
     type: "image/jpeg",
     width: 1200,
     height: 630,
-    alt: "Adelsoft | Custom Software Development",
+    alt: "Adelsoft | Custom Software Development for Businesses",
   };
 }
 
@@ -77,6 +80,8 @@ export function buildMetadata(page, lang, { canonicalUrl } = {}) {
   const altUrl = `${SITE_URL}${meta.altPath}`;
   const altLang = lang === "en" ? "es" : "en";
   const ogDescription = meta.ogDescription || meta.description;
+  const twitterDescription =
+    meta.twitterDescription || ogDescription || meta.description;
 
   return {
     title: meta.title,
@@ -101,7 +106,7 @@ export function buildMetadata(page, lang, { canonicalUrl } = {}) {
     twitter: {
       card: "summary_large_image",
       title: meta.title,
-      description: ogDescription,
+      description: twitterDescription,
       images: [OG_IMAGE],
     },
   };
