@@ -96,8 +96,15 @@ export const Contact = ({ data }) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            <a href="https://adelsoft.co" rel="noopener noreferrer">
-              &copy; {year} {copyright}
+            <a
+              href="https://adelsoft.co"
+              rel="noopener noreferrer"
+              className="footer-brand"
+            >
+              <img src="/img/logo.svg" alt="" width="22" height="19" />
+              <span>
+                &copy; {year} {copyright}
+              </span>
             </a>
           </p>
         </div>

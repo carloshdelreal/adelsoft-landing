@@ -887,6 +887,92 @@
   transition: box-shadow var(--transition-base);
 }
 
+/* Brand mark in navbar — horizontal logo (icon + wordmark) */
+#menu {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#menu a.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1;
+}
+
+#menu a.navbar-brand .navbar-logo {
+  display: block;
+  width: 200px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* Keep logo, links, and language toggle on one vertical center line */
+@media (min-width: 768px) {
+  #menu > .container {
+    display: flex;
+    align-items: center;
+  }
+
+  #menu .navbar-header {
+    float: none;
+    display: flex;
+    align-items: center;
+  }
+
+  #menu .navbar-collapse.collapse {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    float: none;
+    height: auto !important;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  #menu .navbar-nav.navbar-right {
+    float: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #menu.navbar-default .navbar-nav > li > a {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #menu .language-selector {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  #menu a.navbar-brand .navbar-logo {
+    width: 160px;
+  }
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-brand img {
+  width: 22px;
+  height: auto;
+}
+
 /* 404 page — reuses hero intro treatment */
 .not-found-page {
   min-height: 100vh;

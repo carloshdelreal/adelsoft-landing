@@ -6,33 +6,43 @@ import "@/App.css";
 export const metadata = {
   metadataBase: new URL("https://adelsoft.co"),
   title: {
-    default: "Adelsoft Web Development",
+    default: "Adelsoft | Custom Software Development",
     template: "%s",
   },
   description:
-    "Web development services. We build the apps your customers will love and your competition will hate.",
+    "Custom software development, web applications, GIS solutions and AI-powered automation for businesses.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/img/logo.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     siteName: "Adelsoft",
-    title: "Adelsoft Web Development",
+    title: "Adelsoft | Custom Software Development",
     description:
-      "Web development services. We build the apps your customers will love and your competition will hate.",
-    url: "https://adelsoft.co/en/",
+      "Helping businesses grow through custom software, AI automation and GIS solutions.",
+    url: "https://adelsoft.co/",
     images: [
       {
-        url: "https://adelsoft.co/img/og.jpg",
+        url: "https://adelsoft.co/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Adelsoft Web Development",
+        alt: "Adelsoft | Custom Software Development",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adelsoft Web Development",
+    title: "Adelsoft | Custom Software Development",
     description:
-      "Web development services. We build the apps your customers will love and your competition will hate.",
-    images: ["https://adelsoft.co/img/og.jpg"],
+      "Helping businesses grow through custom software, AI automation and GIS solutions.",
+    images: ["https://adelsoft.co/og-image.jpg"],
   },
 };
 

@@ -1,20 +1,47 @@
-import { buildMetadata } from "@/lib/seo";
+import { buildRootMetadata } from "@/lib/seo";
 
-export const metadata = {
-  ...buildMetadata("home", "en"),
-  alternates: {
-    ...buildMetadata("home", "en").alternates,
-    canonical: "https://adelsoft.co/en/",
-  },
-};
+export const metadata = buildRootMetadata();
 
 export default function RootPage() {
   return (
     <>
       <meta httpEquiv="refresh" content="0;url=/en/" />
-      <main style={{ padding: "2rem", textAlign: "center" }}>
-        <p>
-          <a href="/en/">Continue to Adelsoft</a>
+      <main
+        style={{
+          padding: "3rem 1.5rem",
+          textAlign: "center",
+          minHeight: "70vh",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: "1rem",
+        }}
+      >
+        <img
+          src="/img/logo.svg"
+          alt="Adelsoft"
+          width="96"
+          height="82"
+          style={{ marginBottom: "0.5rem" }}
+        />
+        <h1
+          style={{
+            fontFamily: "Raleway, sans-serif",
+            fontSize: "1.75rem",
+            margin: 0,
+          }}
+        >
+          Adelsoft | Custom Software Development
+        </h1>
+        <p style={{ maxWidth: "36rem", color: "#555", margin: 0 }}>
+          Helping businesses grow through custom software, AI automation and GIS
+          solutions.
+        </p>
+        <p style={{ marginTop: "0.75rem" }}>
+          <a href="/en/" className="btn btn-custom btn-lg">
+            Continue to Adelsoft
+          </a>
         </p>
       </main>
     </>
