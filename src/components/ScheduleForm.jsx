@@ -56,7 +56,7 @@ export const ScheduleForm = ({ languageData }) => {
         </div>
 
         <div className="schedule-cta text-center">
-          <h1 className="schedule-cta-text">{data.ctaText}</h1>
+          <h1 className="schedule-cta-text">{renderMarkdownText(data.ctaText)}</h1>
         </div>
 
         <div className="schedule-form-section">
