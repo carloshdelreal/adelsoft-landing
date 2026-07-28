@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://adelsoft.co/sitemap.xml
+Sitemap: https://adelsoft.co/sitemap.xml/
