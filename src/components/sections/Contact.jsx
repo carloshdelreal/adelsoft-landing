@@ -68,6 +68,16 @@ export const Contact = ({ data }) => {
                     </a>
                   </li>
                   <li>
+                    <a
+                      href={contactData.instagram || "https://www.instagram.com/adelsoft.dev/"}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      aria-label="Instagram"
+                    >
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
                     <a href={contactData.github || "/"} rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-github"></i>
                     </a>
