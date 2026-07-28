@@ -36,7 +36,7 @@ export const Navigation = ({ data, className }) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href={`/${language}#page-top`}>
+          <a className="navbar-brand page-scroll" href={`/${language}/#page-top`}>
             Adelsoft
           </a>
         </div>
@@ -49,7 +49,7 @@ export const Navigation = ({ data, className }) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a
-                href={`/${language}#features`}
+                href={`/${language}/#features`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
@@ -58,7 +58,7 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}#about`}
+                href={`/${language}/#about`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
@@ -67,7 +67,7 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}#services`}
+                href={`/${language}/#services`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
@@ -76,7 +76,7 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}#portfolio`}
+                href={`/${language}/#portfolio`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
@@ -85,7 +85,7 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}#testimonials`}
+                href={`/${language}/#testimonials`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
@@ -94,7 +94,7 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}#team`}
+                href={`/${language}/#team`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
@@ -103,7 +103,7 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}#contact`}
+                href={`/${language}/#contact`}
                 className="page-scroll"
                 onClick={closeMenu}
               >

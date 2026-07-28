@@ -21,7 +21,7 @@ export const Contact = ({ data }) => {
                     "Click the button below to schedule a free consultation with our team."}
                 </p>
                 <a
-                  href={`/${language}/${language === "es" ? "agendar" : "schedule"}`}
+                  href={`/${language}/${language === "es" ? "agendar" : "schedule"}/`}
                   className="btn btn-custom btn-lg"
                 >
                   {contactData.buttonText || "Schedule Consultation"}

@@ -1,5 +1,7 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+"use client";
+
+import React, { createContext, useContext, useEffect, useMemo } from "react";
+import { usePathname, useRouter } from "next/navigation";
 
 const LanguageContext = createContext();
 
@@ -11,57 +13,53 @@ export const useLanguage = () => {
   return context;
 };
 
-export const LanguageProvider = ({ children }) => {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const [language, setLanguage] = useState("en");
+const routeMapping = {
+  en: {
+    schedule: "schedule",
+    thankyou: "thankyou",
+  },
+  es: {
+    schedule: "agendar",
+    thankyou: "gracias",
+  },
+};
 
-  const routeMapping = {
-    en: {
-      schedule: "schedule",
-      thankyou: "thankyou",
-    },
-    es: {
-      schedule: "agendar",
-      thankyou: "gracias",
-    },
-  };
+export const LanguageProvider = ({ children }) => {
+  const router = useRouter();
+  const pathname = usePathname() || "/en/";
+
+  const language = useMemo(() => {
+    const segment = pathname.split("/").filter(Boolean)[0];
+    return segment === "es" ? "es" : "en";
+  }, [pathname]);
 
   useEffect(() => {
-    const pathSegments = location.pathname.split("/").filter(Boolean);
-    const currentLang = pathSegments[0];
-
-    if (currentLang === "en" || currentLang === "es") {
-      setLanguage(currentLang);
-      document.documentElement.lang = currentLang;
-    } else {
-      navigate("/en", { replace: true });
-    }
-  }, [location.pathname, navigate]);
+    document.documentElement.lang = language;
+  }, [language]);
 
   const switchLanguage = (newLang) => {
-    if (newLang === "en" || newLang === "es") {
-      const pathSegments = location.pathname.split("/").filter(Boolean);
-      const pathWithoutLang = pathSegments.slice(1).join("/");
+    if (newLang !== "en" && newLang !== "es") return;
 
-      let newRoute = "";
-      if (pathWithoutLang) {
-        const currentLangRoutes = routeMapping[language];
-        const newLangRoutes = routeMapping[newLang];
-        const currentRoute = Object.keys(currentLangRoutes).find(
-          (key) => currentLangRoutes[key] === pathWithoutLang
-        );
+    const pathSegments = pathname.split("/").filter(Boolean);
+    const pathWithoutLang = pathSegments.slice(1).join("/");
 
-        if (currentRoute && newLangRoutes[currentRoute]) {
-          newRoute = newLangRoutes[currentRoute];
-        } else {
-          newRoute = pathWithoutLang;
-        }
+    let newRoute = "";
+    if (pathWithoutLang) {
+      const currentLangRoutes = routeMapping[language];
+      const newLangRoutes = routeMapping[newLang];
+      const currentRoute = Object.keys(currentLangRoutes).find(
+        (key) => currentLangRoutes[key] === pathWithoutLang
+      );
+
+      if (currentRoute && newLangRoutes[currentRoute]) {
+        newRoute = newLangRoutes[currentRoute];
+      } else {
+        newRoute = pathWithoutLang;
       }
-
-      const newPath = `/${newLang}${newRoute ? "/" + newRoute : ""}`;
-      navigate(newPath);
     }
+
+    const newPath = `/${newLang}${newRoute ? "/" + newRoute : ""}/`;
+    router.push(newPath);
   };
 
   const toggleLanguage = () => {

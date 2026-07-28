@@ -1,6 +1,6 @@
 # Adelsoft Landing Page
 
-Bilingual (EN/ES) marketing site for Adelsoft Web Development, built with React + Vite and deployed to GitHub Pages.
+Bilingual (EN/ES) marketing site for Adelsoft Web Development, built with **Next.js static export** so each route ships real HTML (including Open Graph tags for WhatsApp/social previews).
 
 ## Prerequisites
 
@@ -18,31 +18,33 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Scripts
 
-- `npm start` / `npm run dev` — Vite development server
-- `npm run build` — production build to `dist/`
-- `npm run preview` — preview the production build
-- `npm run deploy` — build and publish `dist/` to GitHub Pages
-
-## Project Structure
-
-- `/src` — React app (pages, sections, i18n data)
-- `/public` — static CSS, fonts, images, `404.html` (SPA fallback)
-- `/dist` — production build output
+- `npm start` / `npm run dev` — Next.js development server
+- `npm run build` — static export to `out/`
+- `npm run preview` — serve the `out/` folder locally
+- `npm run deploy` — build and publish `out/` to GitHub Pages
 
 ## Routes
 
 | English | Spanish |
 |---------|---------|
-| `/en` | `/es` |
-| `/en/schedule` | `/es/agendar` |
-| `/en/thankyou` | `/es/gracias` |
+| `/en/` | `/es/` |
+| `/en/schedule/` | `/es/agendar/` |
+| `/en/thankyou/` | `/es/gracias/` |
+
+Each of these paths is a pre-rendered HTML file with its own title, description, and `og:*` tags.
+
+## Project Structure
+
+- `/src/app` — Next.js App Router pages + metadata
+- `/src/views` — page compositions (home, schedule, thank-you)
+- `/src/components` — UI sections
+- `/src/data` — bilingual copy (`data.json`)
+- `/public` — static CSS, fonts, images
 
 ## Stack
 
+- Next.js 15 (`output: "export"`)
 - React 18
-- Vite 5
-- React Router 6
-- react-helmet-async
 - Smooth Scroll
 - Bootstrap 3 CSS (legacy grid/styles)
 

@@ -1,0 +1,22 @@
+"use client";
+
+import { useLanguage } from "@/contexts/LanguageContext";
+import { landingPageData } from "@/lib/landingData";
+import { Contact } from "@/components/sections/Contact";
+import { ThankYou } from "@/components/thankyou";
+import { Faq } from "@/components/sections/Faq";
+import { Navigation } from "@/components/navigation";
+
+export const ThankYouPage = () => {
+  const { language } = useLanguage();
+  const languageData = landingPageData?.languages?.[language] || {};
+
+  return (
+    <div>
+      <Navigation data={landingPageData} />
+      <ThankYou data={languageData.ThankYou} />
+      <Faq data={languageData} />
+      <Contact data={languageData} />
+    </div>
+  );
+};

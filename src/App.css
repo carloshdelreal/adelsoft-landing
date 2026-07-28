@@ -877,3 +877,68 @@
   width: 100%;
   transition: box-shadow var(--transition-base);
 }
+
+/* 404 page — reuses hero intro treatment */
+.not-found-page {
+  min-height: 100vh;
+}
+
+.not-found-hero .intro-text.not-found-content {
+  padding-top: 220px;
+  padding-bottom: 160px;
+}
+
+.not-found-code {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--brand-blue);
+  margin: 0 0 16px;
+}
+
+.not-found-hero .intro h1 {
+  font-size: 56px;
+}
+
+.not-found-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-secondary {
+  background: transparent !important;
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.not-found-secondary:hover,
+.not-found-secondary:focus {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #fff !important;
+}
+
+@media (max-width: 767px) {
+  .not-found-hero .intro-text.not-found-content {
+    padding-top: 160px;
+    padding-bottom: 100px;
+  }
+
+  .not-found-hero .intro h1 {
+    font-size: 32px;
+  }
+
+  .not-found-actions {
+    flex-direction: column;
+  }
+
+  .not-found-actions .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
