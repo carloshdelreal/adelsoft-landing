@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next dev",
-    "build": "next build && node scripts/gh-pages-sitemap.mjs",
+    "build": "next build",
     "preview": "npx serve out",
     "deploy": "npm run build && gh-pages -d out"
   },
