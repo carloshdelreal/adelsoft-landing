@@ -4,5 +4,5 @@ import { ThankYouPage } from "@/views/ThankYouPage";
 export const metadata = buildMetadata("thankyou", "es");
 
 export default function SpanishThankYouPage() {
-  return <ThankYouPage />;
+  return <ThankYouPage locale="es" />;
 }

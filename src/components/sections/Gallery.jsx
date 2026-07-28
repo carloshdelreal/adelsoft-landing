@@ -8,7 +8,7 @@ export const Gallery = ({ data, description }) => {
   const galleryText = language === 'es' ? 'Galería' : 'Gallery';
 
   return (
-    <div className="text-center">
+    <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>{galleryText}</h2>

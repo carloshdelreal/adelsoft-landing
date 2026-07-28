@@ -4,5 +4,5 @@ import { HomePage } from "@/views/HomePage";
 export const metadata = buildMetadata("home", "en");
 
 export default function EnglishHomePage() {
-  return <HomePage />;
+  return <HomePage locale="en" />;
 }

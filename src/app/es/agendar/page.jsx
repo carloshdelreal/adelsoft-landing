@@ -4,5 +4,5 @@ import { Schedule } from "@/views/Schedule";
 export const metadata = buildMetadata("schedule", "es");
 
 export default function SpanishSchedulePage() {
-  return <Schedule />;
+  return <Schedule locale="es" />;
 }

@@ -7,8 +7,9 @@ import { ThankYou } from "@/components/thankyou";
 import { Faq } from "@/components/sections/Faq";
 import { Navigation } from "@/components/navigation";
 
-export const ThankYouPage = () => {
-  const { language } = useLanguage();
+export const ThankYouPage = ({ locale }) => {
+  const { language: contextLanguage } = useLanguage();
+  const language = locale || contextLanguage;
   const languageData = landingPageData?.languages?.[language] || {};
 
   return (

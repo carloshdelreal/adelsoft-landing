@@ -24,14 +24,21 @@ const routeMapping = {
   },
 };
 
-export const LanguageProvider = ({ children }) => {
+function localeFromPath(pathname) {
+  const segment = (pathname || "").split("/").filter(Boolean)[0];
+  return segment === "es" ? "es" : "en";
+}
+
+export const LanguageProvider = ({ children, locale: localeProp }) => {
   const router = useRouter();
   const pathname = usePathname() || "/en/";
 
   const language = useMemo(() => {
-    const segment = pathname.split("/").filter(Boolean)[0];
-    return segment === "es" ? "es" : "en";
-  }, [pathname]);
+    if (localeProp === "en" || localeProp === "es") {
+      return localeProp;
+    }
+    return localeFromPath(pathname);
+  }, [localeProp, pathname]);
 
   useEffect(() => {
     document.documentElement.lang = language;
@@ -59,6 +66,12 @@ export const LanguageProvider = ({ children }) => {
     }
 
     const newPath = `/${newLang}${newRoute ? "/" + newRoute : ""}/`;
+
+    // Full navigation is more reliable with static export than soft routing.
+    if (typeof window !== "undefined") {
+      window.location.assign(newPath);
+      return;
+    }
     router.push(newPath);
   };
 

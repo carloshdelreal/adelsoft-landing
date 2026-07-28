@@ -12,8 +12,9 @@ import { Team } from "@/components/sections/Team";
 import { Contact } from "@/components/sections/Contact";
 import { Navigation } from "@/components/navigation";
 
-export const HomePage = () => {
-  const { language } = useLanguage();
+export const HomePage = ({ locale }) => {
+  const { language: contextLanguage } = useLanguage();
+  const language = locale || contextLanguage;
   const languageData = landingPageData?.languages?.[language] || {};
 
   return (

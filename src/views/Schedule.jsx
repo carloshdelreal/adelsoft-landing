@@ -6,8 +6,9 @@ import { ScheduleForm } from "@/components/ScheduleForm";
 import { Contact } from "@/components/sections/Contact";
 import { Navigation } from "@/components/navigation";
 
-export const Schedule = () => {
-  const { language } = useLanguage();
+export const Schedule = ({ locale }) => {
+  const { language: contextLanguage } = useLanguage();
+  const language = locale || contextLanguage;
   const languageData = landingPageData?.languages?.[language] || {};
 
   return (
