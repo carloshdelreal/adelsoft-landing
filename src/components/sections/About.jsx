@@ -13,7 +13,12 @@ export const About = ({ data }) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src={data?.aboutImage || "img/about.jpg"} className="img-responsive" alt="" />{" "}
+            <img
+              src={data?.aboutImage || "/img/about.jpg"}
+              className="img-responsive"
+              alt={language === "es" ? "Acerca de Adelsoft" : "About Adelsoft"}
+              loading="lazy"
+            />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">

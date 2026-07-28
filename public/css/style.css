@@ -1,9 +1,24 @@
+:root {
+  --brand-blue: #5ca9fb;
+  --brand-indigo: #6372ff;
+  --brand-link: #608dfd;
+  --brand-success: #1e7a46;
+  --brand-text: #333;
+  --brand-muted: #777;
+  --brand-bg-soft: #f6f6f6;
+  --brand-gradient: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  --brand-gradient-alt: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  --space-section: 100px;
+  --radius-md: 8px;
+  --transition-base: 0.3s ease;
+}
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: var(--brand-muted);
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -600,4 +615,61 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+/* Responsive hero */
+@media (max-width: 991px) {
+  header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 120px;
+  }
+
+  .intro h1 {
+    font-size: 48px;
+  }
+
+  .intro p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  header .intro-text {
+    padding-top: 140px;
+    padding-bottom: 80px;
+  }
+
+  .intro h1 {
+    font-size: 32px;
+    line-height: 1.15;
+  }
+
+  .intro p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 28px;
+  }
+
+  #about,
+  #services,
+  #features,
+  #team,
+  #testimonials,
+  #contact {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header .intro-text {
+    padding-top: 120px;
+    padding-bottom: 64px;
+  }
+
+  .intro h1 {
+    font-size: 28px;
+  }
+}
 

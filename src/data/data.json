@@ -1,23 +1,23 @@
 {
   "assets": {
     "images": {
-      "landmarkMap": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png",
-      "waterPeaceSecurity": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png",
-      "aqueductFiles": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png",
-      "souperbowlCaring": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png",
-      "sellerInsight": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png",
-      "newselaClassroom": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png",
-      "fiveToNine": "https://cdn.sanity.io/images/a2l7d5g3/development/a324b9578d64c2d9b467ae70e35938014f7cb0a1-906x633.png",
-      "pinterestTools": "https://cdn.sanity.io/images/a2l7d5g3/development/bb3b5953df17e3c8d1f6cfadf2f57e9b4e8ce77c-3268x1710.png",
-      "optumStore": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png",
+      "landmarkMap": "https://cdn.sanity.io/images/a2l7d5g3/development/ddc319e9ffc1411ac851ffac86aadda33816bb1a-3260x1712.png?w=1200&auto=format",
+      "waterPeaceSecurity": "https://cdn.sanity.io/images/a2l7d5g3/development/037b637386d3750537bdfdd84187ab0474061f60-3256x1704.png?w=1200&auto=format",
+      "aqueductFiles": "https://cdn.sanity.io/images/a2l7d5g3/development/ba313154da06c017477e6270a9e678faa2a3de0a-3278x1654.png?w=1200&auto=format",
+      "souperbowlCaring": "https://cdn.sanity.io/images/a2l7d5g3/development/e3d26d8b40ee85fe5d0fc9d3cbdddf34c004518f-325x201.png?w=640&auto=format",
+      "sellerInsight": "https://cdn.sanity.io/images/a2l7d5g3/development/04c2223ab0a87a35159afdd2e31034a14d273287-3274x1712.png?w=1200&auto=format",
+      "newselaClassroom": "https://cdn.sanity.io/images/a2l7d5g3/development/2404a3cf5c1938d15c9ff95b6c03ea0c2b441058-3242x1696.png?w=1200&auto=format",
+      "fiveToNine": "https://cdn.sanity.io/images/a2l7d5g3/development/a324b9578d64c2d9b467ae70e35938014f7cb0a1-906x633.png?w=900&auto=format",
+      "pinterestTools": "https://cdn.sanity.io/images/a2l7d5g3/development/bb3b5953df17e3c8d1f6cfadf2f57e9b4e8ce77c-3268x1710.png?w=1200&auto=format",
+      "optumStore": "https://cdn.sanity.io/images/a2l7d5g3/development/e51ef7ad7d37073df51ec6eea84fcadfc5ca86d4-3270x1712.png?w=1200&auto=format",
       "carlosProfile": "https://carloshdelreal.com/carlos-profile.jpg",
-      "canelaMeffert": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg",
-      "davidAuza": "https://cdn.sanity.io/images/a2l7d5g3/development/2dfb63ec5287fda9481adb3dab013e781f4f8554-512x512.jpg",
-      "adonysMedina": "https://cdn.sanity.io/images/a2l7d5g3/development/81e2d5cf3b553ca481b6cc85069a1bcbdc1ceace-607x607.jpg",
-      "maxStuart": "https://cdn.sanity.io/images/a2l7d5g3/development/756facf2b3c84024f378770fe71f9ee21d79257e-512x512.png",
-      "julianMedina": "https://cdn.sanity.io/images/a2l7d5g3/development/1f553b0fa930535908e0d1a5cec1ecf721459f77-800x800.jpg",
-      "eduardoDiaz": "https://cdn.sanity.io/images/a2l7d5g3/development/352f03fa68e85066b6d48d072cd5260ff964e4f4-800x800.jpg",
-      "aboutImage": "@assets.images.aboutImage"
+      "canelaMeffert": "https://cdn.sanity.io/images/a2l7d5g3/development/85ff663dbd9e2829b3df8a3f4ed17f250d8124a2-512x512.jpg?w=256&auto=format",
+      "davidAuza": "https://cdn.sanity.io/images/a2l7d5g3/development/2dfb63ec5287fda9481adb3dab013e781f4f8554-512x512.jpg?w=256&auto=format",
+      "adonysMedina": "https://cdn.sanity.io/images/a2l7d5g3/development/81e2d5cf3b553ca481b6cc85069a1bcbdc1ceace-607x607.jpg?w=256&auto=format",
+      "maxStuart": "https://cdn.sanity.io/images/a2l7d5g3/development/756facf2b3c84024f378770fe71f9ee21d79257e-512x512.png?w=256&auto=format",
+      "julianMedina": "https://cdn.sanity.io/images/a2l7d5g3/development/1f553b0fa930535908e0d1a5cec1ecf721459f77-800x800.jpg?w=400&auto=format",
+      "eduardoDiaz": "https://cdn.sanity.io/images/a2l7d5g3/development/352f03fa68e85066b6d48d072cd5260ff964e4f4-800x800.jpg?w=400&auto=format",
+      "aboutImage": "/img/about.jpg"
     }
   },
   "languages": {
@@ -121,9 +121,10 @@
         "address": "Floridablanca, Colombia",
         "phone": "+57 (301) 308-8500",
         "email": "carloshdelreal@gmail.com",
-        "facebook": "facebook.com/carloshdelreal",
-        "github": "github.com/carloshdelreal",
-        "linkedin": "linkedin.com/in/carloshdelreal"
+        "facebook": "https://facebook.com/carloshdelreal",
+        "github": "https://github.com/carloshdelreal",
+        "linkedin": "https://linkedin.com/in/carloshdelreal",
+        "footerCopyright": "Adelsoft Web Development – All rights reserved"
       },
       "Gallery": [
         {
@@ -416,9 +417,10 @@
         "address": "Floridablanca, Colombia",
         "phone": "+57 (301) 308-8500",
         "email": "carloshdelreal@gmail.com",
-        "facebook": "facebook.com/carloshdelreal",
-        "github": "github.com/carloshdelreal",
-        "linkedin": "linkedin.com/in/carloshdelreal"
+        "facebook": "https://facebook.com/carloshdelreal",
+        "github": "https://github.com/carloshdelreal",
+        "linkedin": "https://linkedin.com/in/carloshdelreal",
+        "footerCopyright": "Adelsoft Web Development – Todos los derechos reservados"
       },
       "Gallery": [
         {

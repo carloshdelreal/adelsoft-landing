@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import { HomePage } from "./pages/HomePage";
 import { ThankYouPage } from "./pages/ThankYouPage";
@@ -14,34 +15,44 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  
-  useEffect(() => {
-    // Process the raw data to resolve asset references
-    const processedData = processDataWithAssets(JsonData);
-    setLandingPageData(processedData);
-  }, []);
+const landingPageData = processDataWithAssets(JsonData);
 
+const App = () => {
   return (
-    <Router>
-      <LanguageProvider>
-        <Switch>
-          {/* Redirect root to default language */}
-          <Route exact path="/" render={() => <Redirect to="/en" />} />
-          
-          {/* English routes */}
-          <Route exact path="/en" render={() => <HomePage landingPageData={landingPageData} />} />
-          <Route path="/en/thankyou" render={() => <ThankYouPage landingPageData={landingPageData} />} />
-          <Route path="/en/schedule" render={() => <Schedule landingPageData={landingPageData} />} />
-          
-          {/* Spanish routes */}
-          <Route exact path="/es" render={() => <HomePage landingPageData={landingPageData} />} />
-          <Route path="/es/gracias" render={() => <ThankYouPage landingPageData={landingPageData} />} />
-          <Route path="/es/agendar" render={() => <Schedule landingPageData={landingPageData} />} />
-        </Switch>
-      </LanguageProvider>
-    </Router>
+    <HelmetProvider>
+      <BrowserRouter>
+        <LanguageProvider>
+          <Routes>
+            <Route path="/" element={<Navigate to="/en" replace />} />
+            <Route
+              path="/en"
+              element={<HomePage landingPageData={landingPageData} />}
+            />
+            <Route
+              path="/en/thankyou"
+              element={<ThankYouPage landingPageData={landingPageData} />}
+            />
+            <Route
+              path="/en/schedule"
+              element={<Schedule landingPageData={landingPageData} />}
+            />
+            <Route
+              path="/es"
+              element={<HomePage landingPageData={landingPageData} />}
+            />
+            <Route
+              path="/es/gracias"
+              element={<ThankYouPage landingPageData={landingPageData} />}
+            />
+            <Route
+              path="/es/agendar"
+              element={<Schedule landingPageData={landingPageData} />}
+            />
+            <Route path="*" element={<Navigate to="/en" replace />} />
+          </Routes>
+        </LanguageProvider>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 };
 
