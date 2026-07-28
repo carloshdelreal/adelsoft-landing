@@ -6,11 +6,11 @@ import "@/App.css";
 export const metadata = {
   metadataBase: new URL("https://adelsoft.co"),
   title: {
-    default: "Adelsoft | Custom Software Development",
+    default: "Adelsoft | Custom Software Development for Businesses",
     template: "%s",
   },
   description:
-    "Custom software development, web applications, GIS solutions and AI-powered automation for businesses.",
+    "Custom software development, web applications, cloud solutions and AI-powered systems for growing businesses.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -24,24 +24,23 @@ export const metadata = {
   openGraph: {
     type: "website",
     siteName: "Adelsoft",
-    title: "Adelsoft | Custom Software Development",
+    title: "Adelsoft | Custom Software Development for Businesses",
     description:
-      "Helping businesses grow through custom software, AI automation and GIS solutions.",
+      "Custom software development, web applications, cloud solutions and AI-powered systems for growing businesses.",
     url: "https://adelsoft.co/",
     images: [
       {
         url: "https://adelsoft.co/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Adelsoft | Custom Software Development",
+        alt: "Adelsoft | Custom Software Development for Businesses",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adelsoft | Custom Software Development",
-    description:
-      "Helping businesses grow through custom software, AI automation and GIS solutions.",
+    title: "Adelsoft | Custom Software Development for Businesses",
+    description: "Custom software solutions for modern businesses.",
     images: ["https://adelsoft.co/og-image.jpg"],
   },
 };
@@ -73,22 +72,16 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body id="page-top">
-        <Script id="gtm" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P3PZ8GHH');`}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-J0N1JL8YR4"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-J0N1JL8YR4');`}
         </Script>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-P3PZ8GHH"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-            title="Google Tag Manager"
-          />
-        </noscript>
         <Providers>{children}</Providers>
       </body>
     </html>

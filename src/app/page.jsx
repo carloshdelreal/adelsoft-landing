@@ -32,11 +32,11 @@ export default function RootPage() {
             margin: 0,
           }}
         >
-          Adelsoft | Custom Software Development
+          Adelsoft | Custom Software Development for Businesses
         </h1>
         <p style={{ maxWidth: "36rem", color: "#555", margin: 0 }}>
-          Helping businesses grow through custom software, AI automation and GIS
-          solutions.
+          Custom software development, web applications, cloud solutions and
+          AI-powered systems for growing businesses.
         </p>
         <p style={{ marginTop: "0.75rem" }}>
           <a href="/en/" className="btn btn-custom btn-lg">
