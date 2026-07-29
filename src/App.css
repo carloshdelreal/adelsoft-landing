@@ -471,6 +471,43 @@
   }
 }
 
+/* Features — on mobile, replace Bootstrap floats with flex so uneven
+   title/description heights don't shove the next row out of place.
+   Desktop keeps the normal col-md-3 float layout. */
+@media screen and (max-width: 767px) {
+  #features .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  #features .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: none;
+    margin-bottom: 24px;
+  }
+
+  #features .feature-item h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    /* Reserve space for longer ES titles in a 2-column grid */
+    min-height: 3.6em;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  #features .feature-item p {
+    flex: 1;
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+}
+
 /* Testimonials Section Styles */
 #testimonials .row {
   display: flex;

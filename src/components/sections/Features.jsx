@@ -12,12 +12,14 @@ export const Features = ({ data }) => {
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>{featuresText}</h2>
         </div>
-        <div className="row" style={{ margin: 0 }}>
+        <div className="row features-grid">
           {data?.Features && data.Features.length > 0
             ? data.Features.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                  {" "}
-                  <i className={d.icon}></i>
+                <div
+                  key={`${d.title}-${i}`}
+                  className="col-xs-6 col-md-3 feature-item"
+                >
+                  <i className={d.icon} aria-hidden="true"></i>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>
