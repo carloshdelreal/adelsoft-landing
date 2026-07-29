@@ -1,50 +1,46 @@
 import React from "react";
-import { useLanguage } from "../../contexts/LanguageContext";
 
 export const About = ({ data }) => {
-  const { language } = useLanguage();
-  
-  const aboutUsText = language === 'es' ? 'Acerca de Nosotros' : 'About Us';
-  const whyChooseUsText = language === 'es' ? '¿Por Qué Elegirnos?' : 'Why Choose Us?';
+  const about = data?.About || {};
 
   return (
     <div id="about">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            {" "}
             <img
               src={data?.aboutImage || "/img/about.jpg"}
               className="img-responsive"
-              alt={language === "es" ? "Acerca de Adelsoft" : "About Adelsoft"}
+              alt={about.imageAlt || "Adelsoft"}
               loading="lazy"
-            />{" "}
+            />
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>{aboutUsText}</h2>
-              <p>{data?.About?.paragraph || "loading..."}</p>
-              <h3>{whyChooseUsText}</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {data?.About?.Why
-                      ? data.About.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
+              {about.eyebrow ? (
+                <p className="section-eyebrow section-eyebrow-left">{about.eyebrow}</p>
+              ) : null}
+              <h2>{about.title || "About"}</h2>
+              <p>{about.paragraph || "loading..."}</p>
+              {about.quote ? (
+                <blockquote className="about-quote">
+                  <p>{about.quote}</p>
+                  {about.quoteAuthor ? <footer>{about.quoteAuthor}</footer> : null}
+                </blockquote>
+              ) : null}
+              {about.points?.length ? (
+                <div className="about-points">
+                  {about.points.map((point, i) => (
+                    <div key={`${point.number}-${i}`} className="about-point">
+                      <div className="about-point-number">{point.number}</div>
+                      <div>
+                        <h3>{point.title}</h3>
+                        <p>{point.text}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {data?.About?.Why2
-                      ? data.About.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-              </div>
+              ) : null}
             </div>
           </div>
         </div>

@@ -6,15 +6,16 @@ export const Navigation = ({ data, className }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navText = data?.languages?.[language]?.nav || {
-    features: "Features",
-    about: "About",
     services: "Services",
-    gallery: "Gallery",
-    testimonials: "Testimonials",
+    about: "Nearshore",
+    process: "How we work",
+    gallery: "Work",
     team: "Team",
-    contact: "Contact",
+    faq: "FAQ",
+    book: "Book a consultation",
   };
 
+  const schedulePath = language === "es" ? "agendar" : "schedule";
   const closeMenu = () => setMenuOpen(false);
 
   return (
@@ -52,14 +53,14 @@ export const Navigation = ({ data, className }) => {
           id="bs-example-navbar-collapse-1"
           aria-expanded={menuOpen}
         >
-          <ul className="nav navbar-nav navbar-right">
+          <ul className="nav navbar-nav navbar-links">
             <li>
               <a
-                href={`/${language}/#features`}
+                href={`/${language}/#services`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
-                {navText.features}
+                {navText.services}
               </a>
             </li>
             <li>
@@ -73,11 +74,11 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}/#services`}
+                href={`/${language}/#process`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
-                {navText.services}
+                {navText.process}
               </a>
             </li>
             <li>
@@ -100,29 +101,37 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}/#contact`}
+                href={`/${language}/#faq`}
                 className="page-scroll"
                 onClick={closeMenu}
               >
-                {navText.contact}
+                {navText.faq}
               </a>
             </li>
-            <li className="language-selector">
-              <button
-                onClick={toggleLanguage}
-                className="language-btn"
-                type="button"
-                aria-label={
-                  language === "en" ? "Switch to Spanish" : "Cambiar a inglés"
-                }
-                title={
-                  language === "en" ? "Cambiar a Español" : "Switch to English"
-                }
-              >
-                {language === "en" ? "ES" : "EN"}
-              </button>
-            </li>
           </ul>
+
+          <div className="navbar-actions">
+            <a
+              href={`/${language}/${schedulePath}/`}
+              className="btn btn-custom navbar-book-btn"
+              onClick={closeMenu}
+            >
+              {navText.book}
+            </a>
+            <button
+              onClick={toggleLanguage}
+              className="language-btn"
+              type="button"
+              aria-label={
+                language === "en" ? "Switch to Spanish" : "Cambiar a inglés"
+              }
+              title={
+                language === "en" ? "Cambiar a Español" : "Switch to English"
+              }
+            >
+              {language === "en" ? "ES" : "EN"}
+            </button>
+          </div>
         </div>
       </div>
     </nav>

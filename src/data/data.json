@@ -23,97 +23,96 @@
   "languages": {
     "en": {
       "nav": {
-        "features": "Features",
-        "about": "About",
         "services": "Services",
-        "gallery": "Gallery",
-        "testimonials": "Testimonials",
+        "about": "Nearshore",
+        "process": "How we work",
+        "gallery": "Work",
         "team": "Team",
-        "contact": "Contact"
+        "book": "Book a consultation",
+        "faq": "FAQ"
       },
-  "Header": {
-    "title": "Adelsoft Web Development",
-    "paragraph": "Web development services. We will develop the app that your customers will love and your competition will hate."
-  },
-  "About": {
-    "paragraph": "With over 8 years of experience in web development, we specialize in creating high-performance web applications using modern technologies. Our expertise spans across backend development, cloud services, databases, frontend development, and multiple programming languages. We have extensive experience working with real, live web applications across the entire stack, our passion is to build innovative solutions.",
-    "Why": [
-      "Fullstack Development",
-      "Cloud Architecture",
-      "Microservices",
-      "Performance Optimization"
-    ],
-    "Why2": [
-      "Modern Tech Stack",
-      "Scalable Solutions",
-      "Security First",
-      "Continuous Support"
-    ]
-  },
-  "Services": [
-    {
-      "icon": "fa fa-code",
-      "name": "Consultancy",
-      "text": "I can help you define priorities, sketch profiles that your project should hire, assess technical feasibility, define budgets, and provide time estimates."
-    },
-    {
-      "icon": "fa fa-terminal",
-      "name": "Development",
-      "text": "Bring your project or idea at any stage, and I will help you develop it, deepen it, and make it come to life. Let's add more features and cool integrations that help your business grow."
-    },
-    {
-      "icon": "fa fa-sitemap",
-      "name": "Architecture",
-      "text": "I will help you define the best possible architecture and technology alternatives to develop or re-implement your application, improve performance, and eliminate performance issues."
-    },
-    {
-      "icon": "fa fa-cloud",
-      "name": "Cloud Solutions",
-      "text": "Expertise in AWS, Kubernetes, and cloud architecture to build scalable and reliable applications."
-    },
-    {
-      "icon": "fa fa-database",
-      "name": "Backend Development",
-      "text": "Specialized in Node.js, Ruby on Rails, and Python for building robust backend systems and APIs."
-    },
-    {
-      "icon": "fa fa-desktop",
-      "name": "Frontend Development",
-      "text": "Proficient in React, Next.js, TypeScript, and modern frontend technologies for creating responsive and interactive user interfaces."
-    }
-  ],
-  "Features": [
-    {
-      "icon": "fa fa-rocket",
-      "title": "Fast Development",
-      "text": "Delivering high-quality web solutions quickly and efficiently using modern development practices and tools."
-    },
-    {
-      "icon": "fa fa-shield",
-      "title": "Secure Solutions",
-      "text": "Implementing security best practices to protect your website and user data from potential threats."
-    },
-    {
-      "icon": "fa fa-line-chart",
-      "title": "Scalable Architecture",
-      "text": "Designing solutions that scale with your business, ensuring optimal performance as your user base grows."
-    },
-    {
-      "icon": "fa fa-cogs",
-      "title": "Modern Tech Stack",
-      "text": "Using cutting-edge technologies including React, Node.js, TypeScript, Ruby on Rails, and AWS to build robust applications."
+      "Header": {
+        "eyebrow": "Adelsoft · Senior fullstack engineering",
+        "title": "Senior fullstack engineering, on your time zone.",
+        "paragraph": "A small, remote-first fullstack agency from Floridablanca, Colombia — partnering with US startups, scale-ups and NGOs to design, build and modernize web products end-to-end.",
+        "primaryCta": "Book a free consultation",
+        "secondaryCta": "See how we work"
+      },
+      "About": {
+        "eyebrow": "Why Colombia, nearshore",
+        "title": "A senior engineer, in the same calendar, for less than a US-billable rate.",
+        "paragraph": "Adelsoft was founded by Carlos Del Real — a fullstack engineer who has spent eight years shipping alongside US product teams. The whole model is built around that overlap: working hours, working language, working tools.",
+        "quote": "The point isn’t cheaper talent — it’s senior talent that’s actually online when your team is online.",
+        "quoteAuthor": "Carlos Del Real · Founder, Adelsoft",
+        "imageAlt": "About Adelsoft",
+        "points": [
+          {
+            "number": "01",
+            "title": "Real time-zone overlap",
+            "text": "Colombia sits in the same working hours as the US East Coast and within one hour of the West. Standups happen before lunch, not at midnight."
+          },
+          {
+            "number": "02",
+            "title": "Senior quality, nearshore cost",
+            "text": "You get a fullstack engineer with eight years of production experience — not a junior-plus-vendor-markup. The arithmetic favors your runway."
+          },
+          {
+            "number": "03",
+            "title": "English, fluency and idiom",
+            "text": "Conversational English as a first working language, with the cultural fluency that comes from shipping for US clients repeatedly."
+          }
+        ]
+      },
+      "Services": [
+        {
+          "icon": "fa fa-desktop",
+          "name": "Fullstack web development",
+          "text": "End-to-end product engineering across React, Next.js and TypeScript — interfaces, state, data layers, and the seams between them.",
+          "tags": "React · Next.js · TypeScript"
+        },
+        {
+          "icon": "fa fa-database",
+          "name": "Backend & API engineering",
+          "text": "Domain services, data pipelines and reliable APIs in the backend your team already trusts.",
+          "tags": "Node.js · Ruby on Rails · Python"
+        },
+        {
+          "icon": "fa fa-sitemap",
+          "name": "Software architecture",
+          "text": "Composable architecture, clear boundaries, and migration plans that survive the next two years of product growth.",
+          "tags": "Microservices · DDD · Event-driven"
+        },
+        {
+          "icon": "fa fa-cloud",
+          "name": "Cloud infrastructure",
+          "text": "Production-shaped AWS and Kubernetes setups: paved paths, observable by default, safe to hand off.",
+          "tags": "AWS · Kubernetes · Terraform"
+        },
+        {
+          "icon": "fa fa-code",
+          "name": "Product consultancy",
+          "text": "Scoping, roadmaps, and senior review for teams that need an extra fullstack brain before they commit.",
+          "tags": "Discovery · Roadmap · Reviews"
+        },
+        {
+          "icon": "fa fa-refresh",
+          "name": "Legacy modernization",
+          "text": "Rewrites, replatforming, and the slow hardening of an existing codebase — without freezing the roadmap.",
+          "tags": "Migrate · Refactor · Stabilize"
         }
       ],
       "GalleryDescription": {
-        "description": "Here are some of the projects We've worked on. We have been developing applications for the last 8 years, from architecture, frontend, backend and cloud infrastructure. With the highest developing standards."
+        "title": "Work",
+        "description": "Products we’ve shipped end-to-end — architecture, frontend, backend and cloud — for US product teams and NGOs over the last 8 years."
       },
       "TeamDescription": {
-        "description": "Meet the team that makes Adelsoft Web Development possible. We are a team of experienced professionals who are dedicated to providing the best possible service to our clients."
+        "title": "Small, distributed, accountable.",
+        "description": "Headquartered in Floridablanca, Colombia, with a distributed team across LATAM, Europe and the US. Every engagement is led by a senior fullstack engineer — no layered vendor model."
       },
       "Contact": {
-        "title": "Schedule a Call",
-        "description": "Click the button below to schedule a free consultation with our team. We'll contact you to coordinate the best time.",
-        "buttonText": "Schedule Consultation",
+        "title": "Tell us what you’re building. We’ll tell you whether we can help.",
+        "description": "You’ll get a real engineer on the call, a written scope if it makes sense, and an honest answer if it doesn’t. The first conversation is always free.",
+        "buttonText": "Book a consultation",
         "contactInfoTitle": "Contact Info",
         "addressLabel": "Address",
         "phoneLabel": "Phone",
@@ -125,7 +124,7 @@
         "instagram": "https://www.instagram.com/adelsoft.dev/",
         "github": "https://github.com/carloshdelreal",
         "linkedin": "https://linkedin.com/in/carloshdelreal",
-        "footerCopyright": "Adelsoft Web Development – All rights reserved"
+        "footerCopyright": "Adelsoft – All rights reserved"
       },
       "Gallery": [
         {
@@ -268,13 +267,13 @@
               "description": "You complete the form at the beginning of this page with your data or by clicking \"I want more information\" so we can contact you."
             },
             {
-              "number": "2", 
+              "number": "2",
               "title": "Our partners get in touch",
               "description": "Our partner companies get in touch to make your custom quote depending on your needs."
             },
             {
               "number": "3",
-              "title": "Start developing your project", 
+              "title": "Start developing your project",
               "description": "They start developing your project with a low investment that will allow you to feel fully confident and accelerate startup times."
             }
           ],
@@ -316,101 +315,184 @@
           "copyright": "Adelsoft Web Development – All rights reserved",
           "privacy": "Privacy Policy"
         }
+      },
+      "Proof": {
+        "trustedLabel": "Trusted by teams at",
+        "trustedBy": "Pinterest · Newsela · Truepill · Optum Store · World Resources Institute",
+        "stats": [
+          {
+            "value": "8+",
+            "label": "Years shipping for US product teams"
+          },
+          {
+            "value": "5",
+            "label": "Countries across LATAM, EU and the US"
+          },
+          {
+            "value": "20+",
+            "label": "Products shipped end-to-end"
+          },
+          {
+            "value": "0",
+            "label": "Time-zone drag — same-day replies"
+          }
+        ]
+      },
+      "ServicesSection": {
+        "eyebrow": "What we do",
+        "title": "Full-stack by name, full-stack in practice.",
+        "description": "Six lines of work, each led by the same engineers. No handoff between a sales team and a delivery team you’ve never met."
+      },
+      "Process": {
+        "eyebrow": "How we work",
+        "title": "From first call to shipped build, in four steps.",
+        "description": "No retainers sold before scoping. No deliverables promised before a working estimate. Every engagement starts with the same first step.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Free 30-minute consultation",
+            "text": "A scheduled call to understand your roadmap, constraints and the shape of an engagement that would actually help."
+          },
+          {
+            "number": "02",
+            "title": "Scoping & proposal",
+            "text": "A written scope: deliverables, assumptions, rate, and a working cadence. No retainers sold in the dark."
+          },
+          {
+            "number": "03",
+            "title": "Build, in your tools",
+            "text": "Embedded in your repo, your Slack, your CI. Async-friendly — same time zone, same calendar, no overnight surprises."
+          },
+          {
+            "number": "04",
+            "title": "Ship & hand off",
+            "text": "Documented, deployed, observed. We leave the runbooks, you keep the velocity."
+          }
+        ]
+      },
+      "Faq": {
+        "eyebrow": "FAQ",
+        "title": "Answers to the five we hear most.",
+        "description": "Short, opinionated answers — timezone overlap, English fluency, who owns the code, how pricing math lands, and how a project or retainer engagement actually works.",
+        "questions": [
+          {
+            "question": "How much do your hours overlap with US working hours?",
+            "answer": "Colombia sits in the same working hours as the US East Coast and within one hour of the West Coast — no overnight drag, no 4 a.m. standup. Live meetings (planning, design reviews, retros) land inside a normal working day on both sides; async work fills the rest, and same-day replies are the default.\n\nFor most US East Coast teams, our morning overlap is your whole morning. That makes it easy to keep one shared calendar, one set of working hours, and one set of expectations."
+          },
+          {
+            "question": "How strong is the team’s English?",
+            "answer": "English is a first working language for Adelsoft — not a translation layer. We run planning, reviews and Slack in the same idiomatic English your US team already uses.\n\nThat fluency comes from years of shipping alongside US product teams, so you don’t spend cycles decoding meaning or re-explaining context."
+          },
+          {
+            "question": "Who owns the code, the IP, and the repo? Who secures it?",
+            "answer": "You do. Work lands in your repositories, under your org, with your access controls. IP and deliverables transfer to the client — no hostage source code, no vendor-owned fork.\n\nWe follow your security practices (branch protections, reviews, secrets management) and leave documented runbooks when we hand off."
+          },
+          {
+            "question": "How does pricing compare to a US senior hire?",
+            "answer": "You get senior fullstack capacity at a nearshore rate — typically well below a US senior billable or fully loaded FTE, without junior-plus-vendor markup.\n\nExact numbers depend on scope and cadence. The free consultation is where we put real math next to your roadmap and tell you whether the engagement makes sense."
+          },
+          {
+            "question": "Project or retainer — how do engagements actually work?",
+            "answer": "Both. Fixed-scope projects when the deliverable is clear; retainers when you need ongoing senior capacity inside your tools.\n\nEither way we start the same: a free consult, then a written scope with deliverables, assumptions, rate and cadence. No retainers sold before scoping."
+          }
+        ],
+        "ctaTitle": "Still on the fence?",
+        "ctaDescription": "Bring your questions to the consultation call. Real numbers, real scope, real answer on whether we’re the right fit — 30 minutes, free, on a real engineer’s calendar.",
+        "ctaText": "Book a consultation"
       }
     },
     "es": {
       "nav": {
-        "features": "Características",
-        "about": "Acerca de",
         "services": "Servicios",
-        "gallery": "Galería",
-        "testimonials": "Testimonios",
+        "about": "Nearshore",
+        "process": "Cómo trabajamos",
+        "gallery": "Trabajo",
         "team": "Equipo",
-        "contact": "Contacto"
+        "book": "Agendar consultoría",
+        "faq": "FAQ"
       },
       "Header": {
-        "title": "Adelsoft Desarrollo Web",
-        "paragraph": "Servicios de desarrollo web. Desarrollaremos la aplicación que tus clientes amarán y tu competencia odiará."
+        "eyebrow": "Adelsoft · Ingeniería fullstack senior",
+        "title": "Ingeniería fullstack senior, en tu zona horaria.",
+        "paragraph": "Una agencia fullstack pequeña y remote-first desde Floridablanca, Colombia — acompañamos startups, scale-ups y ONGs de EE.UU. a diseñar, construir y modernizar productos web de punta a punta.",
+        "primaryCta": "Agendar consultoría gratis",
+        "secondaryCta": "Cómo trabajamos"
       },
       "About": {
-        "paragraph": "Con más de 8 años de experiencia en desarrollo web, nos especializamos en crear aplicaciones web de alto rendimiento utilizando tecnologías modernas. Nuestra experiencia abarca desarrollo backend, servicios en la nube, bases de datos, desarrollo frontend y múltiples lenguajes de programación. Tenemos amplia experiencia trabajando con aplicaciones web reales y en vivo en toda la pila, nuestra pasión es construir soluciones innovadoras.",
-        "Why": [
-          "Desarrollo Fullstack",
-          "Arquitectura en la Nube",
-          "Microservicios",
-          "Optimización de Rendimiento"
-        ],
-        "Why2": [
-          "Stack Tecnológico Moderno",
-          "Soluciones Escalables",
-          "Seguridad Primero",
-          "Soporte Continuo"
+        "eyebrow": "Por qué Colombia, nearshore",
+        "title": "Un ingeniero senior, en el mismo calendario, por menos que una tarifa billable de EE.UU.",
+        "paragraph": "Adelsoft fue fundada por Carlos Del Real — un ingeniero fullstack con ocho años enviando producto junto a equipos de EE.UU. Todo el modelo gira en torno a ese solapamiento: horario, idioma y herramientas de trabajo.",
+        "quote": "El punto no es talento más barato — es talento senior que realmente está online cuando tu equipo está online.",
+        "quoteAuthor": "Carlos Del Real · Fundador, Adelsoft",
+        "imageAlt": "Acerca de Adelsoft",
+        "points": [
+          {
+            "number": "01",
+            "title": "Solapamiento real de zona horaria",
+            "text": "Colombia comparte horario laboral con la costa este de EE.UU. y está a una hora de la oeste. Los standups son antes del almuerzo, no a medianoche."
+          },
+          {
+            "number": "02",
+            "title": "Calidad senior, costo nearshore",
+            "text": "Obtienes un ingeniero fullstack con ocho años de experiencia en producción — no un junior con markup de vendor. La aritmética favorece tu runway."
+          },
+          {
+            "number": "03",
+            "title": "Inglés con fluidez e idioma",
+            "text": "Inglés conversacional como primer idioma de trabajo, con la fluidez cultural de haber enviado producto para clientes de EE.UU. una y otra vez."
+          }
         ]
       },
       "Services": [
         {
-          "icon": "fa fa-code",
-          "name": "Consultoría",
-          "text": "Puedo ayudarte a definir prioridades, esbozar perfiles que tu proyecto debería contratar, evaluar la viabilidad técnica, definir presupuestos y proporcionar estimaciones de tiempo."
-        },
-        {
-          "icon": "fa fa-terminal",
-          "name": "Desarrollo",
-          "text": "Trae tu proyecto o idea en cualquier etapa, y te ayudaré a desarrollarlo, profundizarlo y hacerlo realidad. Agreguemos más características e integraciones geniales que ayuden a tu negocio a crecer."
-        },
-        {
-          "icon": "fa fa-sitemap",
-          "name": "Arquitectura",
-          "text": "Te ayudaré a definir la mejor arquitectura posible y alternativas tecnológicas para desarrollar o re-implementar tu aplicación, mejorar el rendimiento y eliminar problemas de rendimiento."
-        },
-        {
-          "icon": "fa fa-cloud",
-          "name": "Soluciones en la Nube",
-          "text": "Experiencia en AWS, Kubernetes y arquitectura en la nube para construir aplicaciones escalables y confiables."
+          "icon": "fa fa-desktop",
+          "name": "Desarrollo web fullstack",
+          "text": "Ingeniería de producto de punta a punta con React, Next.js y TypeScript — interfaces, estado, capas de datos y las uniones entre ellas.",
+          "tags": "React · Next.js · TypeScript"
         },
         {
           "icon": "fa fa-database",
-          "name": "Desarrollo Backend",
-          "text": "Especializado en Node.js, Ruby on Rails y Python para construir sistemas backend robustos y APIs."
+          "name": "Backend e ingeniería de APIs",
+          "text": "Servicios de dominio, pipelines de datos y APIs confiables en el backend que tu equipo ya usa.",
+          "tags": "Node.js · Ruby on Rails · Python"
         },
         {
-          "icon": "fa fa-desktop",
-          "name": "Desarrollo Frontend",
-          "text": "Competente en React, Next.js, TypeScript y tecnologías frontend modernas para crear interfaces de usuario responsivas e interactivas."
-        }
-      ],
-      "Features": [
-        {
-          "icon": "fa fa-rocket",
-          "title": "Desarrollo Rápido",
-          "text": "Entregando soluciones web de alta calidad de manera rápida y eficiente utilizando prácticas y herramientas de desarrollo modernas."
+          "icon": "fa fa-sitemap",
+          "name": "Arquitectura de software",
+          "text": "Arquitectura componible, límites claros y planes de migración que sobrevivan los próximos dos años de crecimiento del producto.",
+          "tags": "Microservicios · DDD · Event-driven"
         },
         {
-          "icon": "fa fa-shield",
-          "title": "Soluciones Seguras",
-          "text": "Implementando mejores prácticas de seguridad para proteger tu sitio web y datos de usuarios de posibles amenazas."
+          "icon": "fa fa-cloud",
+          "name": "Infraestructura en la nube",
+          "text": "Setups de AWS y Kubernetes listos para producción: caminos pavimentados, observables por defecto y seguros de entregar.",
+          "tags": "AWS · Kubernetes · Terraform"
         },
         {
-          "icon": "fa fa-line-chart",
-          "title": "Arquitectura Escalable",
-          "text": "Diseñando soluciones que escalan con tu negocio, asegurando un rendimiento óptimo a medida que tu base de usuarios crece."
+          "icon": "fa fa-code",
+          "name": "Consultoría de producto",
+          "text": "Alcance, roadmaps y revisión senior para equipos que necesitan un cerebro fullstack extra antes de comprometerse.",
+          "tags": "Discovery · Roadmap · Reviews"
         },
         {
-          "icon": "fa fa-cogs",
-          "title": "Stack Tecnológico Moderno",
-          "text": "Usando tecnologías de vanguardia incluyendo React, Node.js, TypeScript, Ruby on Rails y AWS para construir aplicaciones robustas."
+          "icon": "fa fa-refresh",
+          "name": "Modernización de legado",
+          "text": "Reescrituras, re-plataformas y el endurecimiento gradual de un codebase existente — sin congelar el roadmap.",
+          "tags": "Migrar · Refactorizar · Estabilizar"
         }
       ],
       "GalleryDescription": {
-        "description": "Aquí están algunos de los proyectos en los que hemos trabajado. Hemos estado desarrollando aplicaciones durante los últimos 8 años, desde arquitectura, frontend, backend e infraestructura en la nube. Con los más altos estándares de desarrollo."
+        "title": "Trabajo",
+        "description": "Productos que hemos entregado de punta a punta — arquitectura, frontend, backend y nube — para equipos de producto y ONGs de EE.UU. durante los últimos 8 años."
       },
       "TeamDescription": {
-        "description": "Conoce al equipo que hace posible Adelsoft Web Development. Somos un equipo de profesionales experimentados que se dedican a proporcionar el mejor servicio posible a nuestros clientes."
+        "title": "Pequeño, distribuido, responsable.",
+        "description": "Con sede en Floridablanca, Colombia, y un equipo distribuido en LATAM, Europa y EE.UU. Cada engagement lo lidera un ingeniero fullstack senior — sin modelo de vendor en capas."
       },
       "Contact": {
-        "title": "Agenda una Llamada",
-        "description": "Haz clic en el botón de abajo para agendar una consultoría gratuita con nuestro equipo. Te contactaremos para coordinar la mejor hora.",
-        "buttonText": "Agendar Consultoría",
+        "title": "Cuéntanos qué estás construyendo. Te diremos si podemos ayudar.",
+        "description": "Tendrás un ingeniero real en la llamada, un alcance escrito si tiene sentido, y una respuesta honesta si no. La primera conversación siempre es gratis.",
+        "buttonText": "Agendar consultoría",
         "contactInfoTitle": "Información de Contacto",
         "addressLabel": "Dirección",
         "phoneLabel": "Teléfono",
@@ -422,7 +504,7 @@
         "instagram": "https://www.instagram.com/adelsoft.dev/",
         "github": "https://github.com/carloshdelreal",
         "linkedin": "https://linkedin.com/in/carloshdelreal",
-        "footerCopyright": "Adelsoft Web Development – Todos los derechos reservados"
+        "footerCopyright": "Adelsoft – Todos los derechos reservados"
       },
       "Gallery": [
         {
@@ -565,13 +647,13 @@
               "description": "Completas con tus datos el formulario al comienzo de esta página o haciendo clic en \"Quiero más información\" para que podamos contactarte."
             },
             {
-              "number": "2", 
+              "number": "2",
               "title": "Nuestros partners se ponen en contacto",
               "description": "Nuestras empresas partner se ponen en contacto para realizar tu cotización a medida dependiendo de tus necesidades."
             },
             {
               "number": "3",
-              "title": "Inician a desarrollar tu proyecto", 
+              "title": "Inician a desarrollar tu proyecto",
               "description": "Inician a desarrollar tu proyecto con una inversión baja que te permitirá sentirte en plena confianza y acelerar los tiempos de inicio."
             }
           ],
@@ -613,6 +695,90 @@
           "copyright": "Adelsoft Web Development – Todos los derechos reservados",
           "privacy": "Políticas de privacidad"
         }
+      },
+      "Proof": {
+        "trustedLabel": "Equipos que han confiado en nosotros",
+        "trustedBy": "Pinterest · Newsela · Truepill · Optum Store · World Resources Institute",
+        "stats": [
+          {
+            "value": "8+",
+            "label": "Años entregando para equipos de producto en EE.UU."
+          },
+          {
+            "value": "5",
+            "label": "Países en LATAM, UE y EE.UU."
+          },
+          {
+            "value": "20+",
+            "label": "Productos entregados de punta a punta"
+          },
+          {
+            "value": "0",
+            "label": "Fricción de zona horaria — respuesta el mismo día"
+          }
+        ]
+      },
+      "ServicesSection": {
+        "eyebrow": "Qué hacemos",
+        "title": "Full-stack de nombre, full-stack en la práctica.",
+        "description": "Seis líneas de trabajo, lideradas por los mismos ingenieros. Sin traspaso entre un equipo comercial y un equipo de entrega que nunca conociste."
+      },
+      "Process": {
+        "eyebrow": "Cómo trabajamos",
+        "title": "De la primera llamada al build entregado, en cuatro pasos.",
+        "description": "Sin retainers vendidos antes del alcance. Sin entregables prometidos antes de un estimado real. Cada engagement empieza con el mismo primer paso.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Consultoría gratis de 30 minutos",
+            "text": "Una llamada agendada para entender tu roadmap, restricciones y la forma de un engagement que realmente ayude."
+          },
+          {
+            "number": "02",
+            "title": "Alcance y propuesta",
+            "text": "Un alcance escrito: entregables, supuestos, tarifa y cadencia de trabajo. Sin retainers vendidos a ciegas."
+          },
+          {
+            "number": "03",
+            "title": "Construir, en tus herramientas",
+            "text": "Integrados en tu repo, tu Slack, tu CI. Friendly con async — misma zona horaria, mismo calendario, sin sorpresas overnight."
+          },
+          {
+            "number": "04",
+            "title": "Entregar y transferir",
+            "text": "Documentado, desplegado, observado. Dejamos los runbooks; tú te quedas con la velocidad."
+          }
+        ]
+      },
+      "Faq": {
+        "eyebrow": "FAQ",
+        "title": "Las cinco preguntas que más escuchamos.",
+        "description": "Respuestas cortas y directas — solapamiento horario, inglés, quién es dueño del código, cómo cae el pricing, y cómo funciona un proyecto o retainer.",
+        "questions": [
+          {
+            "question": "¿Cuánto se solapan sus horarios con la jornada laboral de EE.UU.?",
+            "answer": "Colombia comparte horario laboral con la costa este de EE.UU. y está a una hora de la oeste — sin fricción overnight ni standups a las 4 a.m. Las reuniones en vivo (planning, reviews, retros) caen en un día laboral normal en ambos lados; el trabajo async llena el resto, y la respuesta el mismo día es el default.\n\nPara la mayoría de equipos de la costa este, nuestro solapamiento matutino es toda su mañana. Eso facilita un solo calendario, un solo set de horarios y un solo set de expectativas."
+          },
+          {
+            "question": "¿Qué tan fuerte es el inglés del equipo?",
+            "answer": "El inglés es idioma de trabajo principal en Adelsoft — no una capa de traducción. Corremos planning, reviews y Slack en el mismo inglés idiomático que ya usa tu equipo en EE.UU.\n\nEsa fluidez viene de años enviando producto junto a equipos de EE.UU., así que no gastas ciclos descifrando significado ni re-explicando contexto."
+          },
+          {
+            "question": "¿Quién es dueño del código, la IP y el repo? ¿Quién lo asegura?",
+            "answer": "Tú. El trabajo llega a tus repositorios, bajo tu organización y tus controles de acceso. La IP y los entregables se transfieren al cliente — sin código rehén ni forks del vendor.\n\nSeguimos tus prácticas de seguridad (branch protections, reviews, secrets) y dejamos runbooks documentados al hacer handoff."
+          },
+          {
+            "question": "¿Cómo se compara el pricing con un hire senior en EE.UU.?",
+            "answer": "Obtienes capacidad fullstack senior a tarifa nearshore — típicamente por debajo de un billable senior de EE.UU. o un FTE fully loaded, sin markup de junior-plus-vendor.\n\nLos números exactos dependen del alcance y la cadencia. En la consultoría gratis ponemos matemática real junto a tu roadmap y te decimos si el engagement tiene sentido."
+          },
+          {
+            "question": "¿Proyecto o retainer — cómo funcionan los engagements?",
+            "answer": "Ambos. Proyectos de alcance fijo cuando el entregable está claro; retainers cuando necesitas capacidad senior continua dentro de tus herramientas.\n\nEn cualquier caso empezamos igual: consultoría gratis y luego un alcance escrito con entregables, supuestos, tarifa y cadencia. Sin retainers vendidos antes del scoping."
+          }
+        ],
+        "ctaTitle": "¿Todavía con dudas?",
+        "ctaDescription": "Trae tus preguntas a la consultoría. Números reales, alcance real, respuesta real sobre si somos el fit correcto — 30 minutos, gratis, en el calendario de un ingeniero real.",
+        "ctaText": "Agendar consultoría"
       }
     }
   }
