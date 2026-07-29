@@ -91,15 +91,6 @@ export const Navigation = ({ data, className }) => {
             </li>
             <li>
               <a
-                href={`/${language}/#testimonials`}
-                className="page-scroll"
-                onClick={closeMenu}
-              >
-                {navText.testimonials}
-              </a>
-            </li>
-            <li>
-              <a
                 href={`/${language}/#team`}
                 className="page-scroll"
                 onClick={closeMenu}

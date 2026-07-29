@@ -7,7 +7,6 @@ import { Features } from "@/components/sections/Features";
 import { About } from "@/components/sections/About";
 import { Services } from "@/components/sections/Services";
 import { Gallery } from "@/components/sections/Gallery";
-import { Testimonials } from "@/components/sections/Testimonials";
 import { Team } from "@/components/sections/Team";
 import { Contact } from "@/components/sections/Contact";
 import { Navigation } from "@/components/navigation";
@@ -28,7 +27,6 @@ export const HomePage = ({ locale }) => {
         data={languageData.Gallery}
         description={languageData.GalleryDescription?.description}
       />
-      <Testimonials data={languageData.Testimonials} />
       <Team
         data={languageData.Team}
         description={languageData.TeamDescription?.description}
